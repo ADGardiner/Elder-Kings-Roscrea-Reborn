@@ -1,0 +1,7 @@
+﻿l_german:
+  roscrean:0 "Roscrean"
+  roscrean_prefix:0 "Roscrean"
+  roscrean_collective_noun:0 "Roscreans"
+  roscrean_desc:0 "Die einheimischen Bewohner von Roscrea, die ursprünglich aus ATMORA cam."
+  roscrean_opinion:0 "$roscrean$ Meinung"
+  culture_custom_nativity_roscrea:0 "[GetGeographicalRegion('custom_nativity_roscrea').GetName]"

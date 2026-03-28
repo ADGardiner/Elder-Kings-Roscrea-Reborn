@@ -1,0 +1,8 @@
+﻿l_german:
+  create_local_culture_roscrea_decision:0 "$create_local_culture_decision$ Roscrea"
+  create_local_culture_roscrea_decision_desc:0 "Es gibt Geschichten von alten Stämmen, die vor Jahrhunderten in den Ländern von Roscrea leben.Wir sollten ihre Bräuche wiederbeleben."
+  create_local_culture_roscrea_decision_courtiers_embrace_new_culture:0 "$create_local_culture_decision_courtiers_embrace_new_culture$"
+  create_local_culture_roscrea_decision_provinces_embrace_new_culture:0 "Alle [counties|E] in Ihrem [domain|E] gehören zur Roscrea -Region mit dem gleichen [heritage|E] wie Sie werden [new_culture.GetName]"
+  create_local_culture_roscrea_decision_capital_embrace_new_culture:0 "$create_local_culture_decision_capital_embrace_new_culture$"
+  create_local_culture_roscrea_decision_confirm:0 "$create_local_culture_decision_confirm$"
+  create_local_culture_roscrea_decision_tooltip:0 "$create_local_culture_decision_tooltip$"

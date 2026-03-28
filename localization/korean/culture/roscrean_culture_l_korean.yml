@@ -1,0 +1,7 @@
+﻿l_korean:
+  roscrean:0 "로스 크레인"
+  roscrean_prefix:0 "로스 크레인"
+  roscrean_collective_noun:0 "Roscreans"
+  roscrean_desc:0 "원래 Atmora의 Cam 인 Roscrea의 원주민 주민."
+  roscrean_opinion:0 "$roscrean$ 의견"
+  culture_custom_nativity_roscrea:0 "[GetGeographicalRegion('custom_nativity_roscrea').GetName]"

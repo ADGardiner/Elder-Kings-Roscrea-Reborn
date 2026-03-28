@@ -1,0 +1,6 @@
+﻿l_simp_chinese:
+  language_roscrean_name:0 "罗斯克雷恩"
+  language_roscrean_desc:0 "罗斯克里亚人的方言会在数百年的隔离之后从旧的Atmoran演变而来。"
+  tradition_roscrean_core_name:0 "罗斯的亲戚"
+  tradition_roscrean_core_desc:0 "罗斯克里亚人民认识到海洋，生命的源头和死亡的源头，并意识到它可能提供的各种商品和疾病。"
+  tradition_roscrean_core_trigger_desc:0 "是#V $roscrean$＃！#it​​alic或＃！[culture|E] $roscrean$从#v [GetCultureTradition('tradition_skaal_core').GetName|V]＃！，没有 [tradition|E] [GetCultureTradition('tradition_nord_core').GetName|V]或 [tradition|E]。"

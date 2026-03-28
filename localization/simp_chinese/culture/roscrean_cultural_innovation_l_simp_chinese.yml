@@ -1,0 +1,4 @@
+﻿l_simp_chinese:
+  innovation_native_roscrea:0 "罗斯克雷亚人"
+  innovation_native_roscrea_desc:0 "我们的人民在罗斯克里亚（Roscrea）生活和繁荣了千年。在其他人难以建立简单定居点的地方，我们建造了伟大的城市和寺庙。"
+  faster_culture_convert_roscrea:0 "$faster_culture_convert_region$ roscrea"

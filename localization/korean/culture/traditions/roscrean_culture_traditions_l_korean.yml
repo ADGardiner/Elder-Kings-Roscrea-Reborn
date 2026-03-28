@@ -1,0 +1,6 @@
+﻿l_korean:
+  language_roscrean_name:0 "로스 크레인"
+  language_roscrean_desc:0 "Roscrea의 사람들은 수백 년 동안 고립 된 후 Old Atmoran에서 진화 한 자신의 방언을 사용합니다."
+  tradition_roscrean_core_name:0 "로스의 친족"
+  tradition_roscrean_core_desc:0 "Roscrea의 사람들은 바다가 그것이 무엇인지, 생명의 근원과 죽음의 것으로 인식하고, 그것이 제공 할 수있는 다양한 물품과 질병을 알고 있습니다."
+  tradition_roscrean_core_trigger_desc:0 "#v $roscrean$ #입니다!#Italic 또는#![culture|E]는 #v $roscrean$ #!에서 내려 왔으며 [GetCultureTradition('tradition_skaal_core').GetName|V] [tradition|E] 또는 [GetCultureTradition('tradition_nord_core').GetName|V] [tradition|E]가 없습니다."

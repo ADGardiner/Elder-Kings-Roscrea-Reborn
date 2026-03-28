@@ -1,0 +1,8 @@
+﻿l_simp_chinese:
+  create_local_culture_roscrea_decision:0 "$create_local_culture_decision$ roscrea"
+  create_local_culture_roscrea_decision_desc:0 "几个世纪前，有一些古老的部落的故事。我们应该恢复他们的习俗。"
+  create_local_culture_roscrea_decision_courtiers_embrace_new_culture:0 "$create_local_culture_decision_courtiers_embrace_new_culture$"
+  create_local_culture_roscrea_decision_provinces_embrace_new_culture:0 "所有 [counties|E]属于您的 [domain|E]属于Roscrea地区的 [heritage|E]与您相同 [new_culture.GetName]"
+  create_local_culture_roscrea_decision_capital_embrace_new_culture:0 "$create_local_culture_decision_capital_embrace_new_culture$"
+  create_local_culture_roscrea_decision_confirm:0 "$create_local_culture_decision_confirm$"
+  create_local_culture_roscrea_decision_tooltip:0 "$create_local_culture_decision_tooltip$"

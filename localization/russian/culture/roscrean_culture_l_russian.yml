@@ -1,0 +1,7 @@
+﻿l_russian:
+  roscrean:0 "Розскрин"
+  roscrean_prefix:0 "Розскрин"
+  roscrean_collective_noun:0 "Розскриан"
+  roscrean_desc:0 "Местные жители Роскреа, которые первоначально камеры из Атморы."
+  roscrean_opinion:0 "$roscrean$ Мнение"
+  culture_custom_nativity_roscrea:0 "[GetGeographicalRegion('custom_nativity_roscrea').GetName]"

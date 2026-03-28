@@ -1,0 +1,8 @@
+﻿l_korean:
+  create_local_culture_roscrea_decision:0 "$create_local_culture_decision$ Roscrea"
+  create_local_culture_roscrea_decision_desc:0 "수세기 전에 로스 크레아의 땅에 살고있는 고대 부족의 이야기가 있습니다.우리는 그들의 관습을 부활시켜야합니다."
+  create_local_culture_roscrea_decision_courtiers_embrace_new_culture:0 "$create_local_culture_decision_courtiers_embrace_new_culture$"
+  create_local_culture_roscrea_decision_provinces_embrace_new_culture:0 "[counties|E]에 속한 [domain|E] a All [heritage|E] as aw as aw as a a aw a with you ren [new_culture.GetName]"
+  create_local_culture_roscrea_decision_capital_embrace_new_culture:0 "$create_local_culture_decision_capital_embrace_new_culture$"
+  create_local_culture_roscrea_decision_confirm:0 "$create_local_culture_decision_confirm$"
+  create_local_culture_roscrea_decision_tooltip:0 "$create_local_culture_decision_tooltip$"

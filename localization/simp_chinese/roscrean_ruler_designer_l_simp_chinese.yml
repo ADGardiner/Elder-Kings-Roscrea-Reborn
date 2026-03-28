@@ -1,0 +1,9 @@
+﻿l_simp_chinese:
+  race_roscrean_1_name:0 "罗斯克雷恩一世"
+  race_roscrean_1:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_roscrean_1_name'), 'no' )]"
+  race_roscrean_2_name:0 "罗斯克雷恩二世"
+  race_roscrean_2:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_roscrean_2_name'), 'no' )]"
+  race_roscrean_3_name:0 "Roscrean III"
+  race_roscrean_3:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_roscrean_3_name'), 'no' )]"
+  race_roscrean_4_name:0 "Roscrean IV"
+  race_roscrean_4:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_roscrean_4_name'), 'no' )]"

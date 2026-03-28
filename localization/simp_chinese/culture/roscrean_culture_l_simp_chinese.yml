@@ -1,0 +1,7 @@
+﻿l_simp_chinese:
+  roscrean:0 "罗斯克雷恩"
+  roscrean_prefix:0 "罗斯克雷恩"
+  roscrean_collective_noun:0 "罗斯克雷恩斯"
+  roscrean_desc:0 "罗斯克里亚（Roscrea）的本地居民，最初是来自atmora的凸轮。"
+  roscrean_opinion:0 "$roscrean$ 观点"
+  culture_custom_nativity_roscrea:0 "[GetGeographicalRegion('custom_nativity_roscrea').GetName]"

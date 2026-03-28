@@ -1,0 +1,6 @@
+﻿l_french:
+  language_roscrean_name:0 "Roscain"
+  language_roscrean_desc:0 "Les habitants de Roscrea parlent leur propre dialecte qui a évolué à partir du vieux atmoran après des centaines d'années d'isolement."
+  tradition_roscrean_core_name:0 "Les parents de ROS"
+  tradition_roscrean_core_desc:0 "Les habitants de Roscrea reconnaissent la mer pour ce qu'elle est, la source de vie et de la mort, et sont conscientes des divers biens et maux qu'il peut offrir."
+  tradition_roscrean_core_trigger_desc:0 "Est soit #v $roscrean$ #!#Italic ou #!A [culture|E] descendant de #v $roscrean$ #!, et n'a pas le [GetCultureTradition('tradition_skaal_core').GetName|V] [tradition|E] [GetCultureTradition('tradition_nord_core').GetName|V] ou le [tradition|E]."

@@ -1,0 +1,6 @@
+﻿l_russian:
+  language_roscrean_name:0 "Розскрин"
+  language_roscrean_desc:0 "Люди Роскреа говорят на своем собственном диалекте, который развивался от старого атморана после сотен лет изоляции."
+  tradition_roscrean_core_name:0 "Родственники АФК"
+  tradition_roscrean_core_desc:0 "Люди Роскреа признают море за то, что оно есть, источник жизни и смерти, и знают о различных товарах и заболеваниях, которые он может предложить."
+  tradition_roscrean_core_trigger_desc:0 "Это либо #V $roscrean$ #!#italic или#![culture|E] Спустился с #V $roscrean$ #!, и нет [GetCultureTradition('tradition_skaal_core').GetName|V] [tradition|E] или [GetCultureTradition('tradition_nord_core').GetName|V] [tradition|E]."

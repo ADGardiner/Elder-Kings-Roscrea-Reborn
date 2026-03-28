@@ -1,0 +1,6 @@
+﻿l_german:
+  language_roscrean_name:0 "Roscrean"
+  language_roscrean_desc:0 "Die Menschen in Roscrea sprechen ihren eigenen Dialekt, der sich nach Hunderten von Jahren Isolation aus dem alten atmoranischen Bereich entwickelt hat."
+  tradition_roscrean_core_name:0 "Die Verwandten von ROS"
+  tradition_roscrean_core_desc:0 "Die Menschen in Roscrea erkennen das Meer für das, was es ist, Quelle des Lebens und des Todes, und sind sich der verschiedenen Waren und Krankheiten bewusst, die sie bieten kann."
+  tradition_roscrean_core_trigger_desc:0 "Ist entweder #v $roscrean$ #!#italic oder#!A [culture|E] stammt von #v $roscrean$ #!, und hat nicht die [GetCultureTradition('tradition_skaal_core').GetName|V] [tradition|E] oder die [GetCultureTradition('tradition_nord_core').GetName|V] [tradition|E]."
