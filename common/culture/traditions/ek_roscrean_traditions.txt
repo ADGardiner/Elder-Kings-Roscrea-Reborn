@@ -1,0 +1,85 @@
+tradition_roscrean_core = {
+    category = core
+
+    layers = {
+		0 = martial
+		1 = indian
+		4 = ship.dds
+	}
+
+    is_shown = {
+		always = yes
+	}
+	
+	can_pick = {
+		custom_tooltip = {
+			text = tradition_roscrean_core_trigger_desc
+			NOT = { has_cultural_tradition = tradition_skaal_core }
+			NOT = { has_cultural_pillar = tradition_nord_core }
+			has_cultural_pillar = heritage_atmoran
+			OR = {
+				this = culture:roscrean
+				any_parent_culture_or_above = {
+					this = culture:roscrean
+				}
+			}
+		}
+	}
+	
+    parameters = {
+        unlock_maa_huscarls = yes
+		can_appoint_court_housecarl = yes
+        moot_elective_enabled = yes
+        winter_trait_bonuses = yes
+		can_travel_along_rivers = yes
+		trade_ports_enabled_for_tribals = yes
+		culture_can_raid_at_sea_even_if_feudal = yes
+		not_tribal_raiding_malus = yes
+    }
+
+    character_modifier = {
+		embarkation_cost_mult = -0.25
+		sea_travel_danger = medium_sea_danger_reduction
+		coastal_sea_travel_danger = medium_sea_danger_reduction
+	}
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_stoic = { is_in_list = traits }
+						culture_pillar:ethos_communal = { is_in_list = traits }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_bellicose_stoic_or_communal_desc
+				}
+			}
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = {
+		value = 100
+		if = {
+			limit = {
+				NOR = {
+					culture_pillar:ethos_bellicose = { is_in_list = traits }
+					culture_pillar:ethos_stoic = { is_in_list = traits }
+					culture_pillar:ethos_communal = { is_in_list = traits }
+					scope:character = {
+						sub_realm_size <= medium_realm_size
+					}
+				}
+			}
+			multiply = 0.25
+		}
+	}
+}

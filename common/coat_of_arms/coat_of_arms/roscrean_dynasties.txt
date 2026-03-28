@@ -1,0 +1,15 @@
+dynn_Hvit_Brohe = {
+	pattern="pattern_nibeney.dds"
+	color1=skyrim_red
+	color2=white
+	color3=skyrim_dpurple
+	colored_emblem={
+		color1=skyrim_silver
+		texture="ce_nord_flamehair_1.dds"
+		instance={
+			position={ 0.500000 0.320000 }
+			scale={ 0.590000 0.590000 }
+		}
+
+	}
+}

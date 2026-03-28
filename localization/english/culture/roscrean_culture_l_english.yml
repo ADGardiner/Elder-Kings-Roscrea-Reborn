@@ -1,0 +1,7 @@
+﻿l_english:
+ roscrean: "Roscrean" ## Placeholder DO NOT REMOVE. HISTORY USE ONLY (FOR NOW).
+ roscrean_prefix: "Roscrean"
+ roscrean_collective_noun: "Roscreans"
+ roscrean_desc: "The native inhabitants of Roscrea, who originally came from Atmora." ## Placeholder DO NOT USE. HISTORY USE ONLY (FOR NOW).
+ roscrean_opinion: "$roscrean$ Opinion" 
+ culture_custom_nativity_roscrea: "[GetGeographicalRegion('custom_nativity_roscrea').GetName]"

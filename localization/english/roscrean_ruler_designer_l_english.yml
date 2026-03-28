@@ -1,0 +1,9 @@
+﻿l_english:
+ race_roscrean_1_name: "Roscrean I"
+ race_roscrean_1: "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_roscrean_1_name'), 'no' )]"
+ race_roscrean_2_name: "Roscrean II"
+ race_roscrean_2: "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_roscrean_2_name'), 'no' )]"
+ race_roscrean_3_name: "Roscrean III"
+ race_roscrean_3: "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_roscrean_3_name'), 'no' )]"
+ race_roscrean_4_name: "Roscrean IV"
+ race_roscrean_4: "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_roscrean_4_name'), 'no' )]"

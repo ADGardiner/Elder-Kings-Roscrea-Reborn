@@ -1,0 +1,191 @@
+﻿hvit_brohe_100 = {
+	name = "Ros"
+	female = no
+	dynasty = dynn_Hvit_Brohe
+	culture = roscrean 
+	religion = totemism
+
+	3329.1.1 = { birth = yes }
+}
+
+hvallar_100 = {
+	name = "Hval"
+	female = no
+	dynasty = dynn_Hval
+	culture = roscrean
+	religion = totemism
+
+	3329.1.1 = { birth = yes }
+}
+
+werrallar_100 = {
+	name = "Hulgarth"
+	female = no
+	dynasty = dynn_Werral
+	culture = roscrean
+	religion = totemism
+
+	3329.1.1 = { birth = yes }
+}
+
+matrfish_100 = {
+	name = "Miina"
+	female = yes
+	dynasty = dynn_Matr_Fish
+	culture = roscrean
+	religion = totemism
+
+	3329.1.1 = { birth = yes }
+}
+
+fashokaaz_100 = {
+	name = "Rorik"
+	female = no
+	dynasty = dynn_Fashokaaz
+	culture = roscrean
+	religion = totemism
+
+	3329.1.1 = { birth = yes }
+}
+
+konaholl_100 = {
+	name = "Tristastyr"
+	female = no
+	dynasty = dynn_Konaholl
+	culture = roscrean
+	religion = totemism
+
+	3329.1.1 = { birth = yes }
+}
+
+gunderson_100 = {
+	dynasty = dynn_Gunderson
+	name = "Gunder"
+	female = no
+	culture = roscrean
+	religion = totemism
+
+	3329.5.1 = { birth = yes }
+}
+
+coldwinter_100 = {
+	name = "Odar"
+	female = no
+	dynasty = dynn_Cold_Winter
+	culture = roscrean
+	religion = totemism
+
+	3329.1.1 = { birth = yes }
+}
+
+dovlagr_100 = {
+	name = "Logrolf"
+	culture = roscrean
+	religion = dragon_cult
+
+	3315.9.6 = { birth = yes }
+}
+
+venger_100 = {
+	name = "Jayred"
+	female = no
+	dynasty = dynn_Venger
+	culture = roscrean
+	religion = totemism
+
+	3315.9.6 = { birth = yes }
+}
+
+vuun_100 = {
+	name = "Haening"
+	female = no
+	dynasty = dynn_Vuun
+	culture = roscrean
+	religion = totemism
+
+	3315.9.6 = { birth = yes }
+}
+
+thuunar_100 = {
+	name = "Ola"
+	female = yes
+	dynasty = dynn_Thuunar
+	culture = roscrean
+	religion = totemism
+
+	3315.9.6 = { birth = yes }
+}
+
+daavren_100 = {
+	name = "Eslaf"
+	female = no
+	dynasty = dynn_Daavren
+	culture = roscrean
+	religion = totemism
+	3322.1.28 = { birth = yes }
+}
+
+rukkel_100 = {
+	name = "Sond"
+	female = no
+	dynasty = dynn_Rukkel
+	culture = roscrean
+	religion = totemism
+	3326.10.4 = { birth = yes }
+}
+
+cranerock_100 = {
+	name = "Erling"
+	female = no
+	dynasty = dynn_Crane_Rock
+	culture = roscrean
+	religion = totemism
+	3321.5.18 = { birth = yes }
+}
+
+miitvaal_100 = {
+	name = "Thonjolf"
+	female = no
+	dynasty = dynn_Miitvaal
+	culture = roscrean
+	religion = totemism
+	3319.12.27 = { birth = yes }
+}
+
+frein_100 = {
+	name = "Klimmek"
+	female = no
+	dynasty = dynn_Frein
+	culture = roscrean
+	religion = totemism
+	3315.9.6 = { birth = yes }
+}
+
+wildwood_100 = {
+	name = "Heimvar"
+	female = no
+	dynasty = dynn_Wild_Wood
+	culture = roscrean
+	religion = woodland_man
+	3310.7.18 = { birth = yes }
+}
+
+esbert_100 = {
+	name = "Ringvild"
+	female = yes
+	dynasty = dynn_Esbert
+	culture = roscrean
+	religion = hircine_cult
+	3330.6.5 = { birth = yes }
+}
+
+olenveld_100 = {
+	name = "Mortlid"
+	female = no
+	culture = eastmarcher
+	religion = worm_cult
+	trait = necromancer
+	trait = education_magic_3
+
+	3326.1.12 = { birth = yes }
+}

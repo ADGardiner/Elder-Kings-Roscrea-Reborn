@@ -1,0 +1,361 @@
+k_roscrea = {
+	pattern="pattern_nibeney.dds"
+	color1=skyrim_mblue
+	color2=white
+	color3=skyrim_dpurple
+	colored_emblem={
+		color1=yellow
+		texture="ce_skyrim_karthald.dds"
+		instance={
+			position={ 0.500000 0.320000 }
+			scale={ 0.590000 0.590000 }
+			rotation=180
+		}
+
+	}
+}
+
+d_hvalcrea = {
+	pattern="pattern_nibeney.dds"
+	color1=skyrim_mblue
+	color2=white
+	color3=skyrim_dpurple
+	colored_emblem={
+		color1=yellow
+		texture="ce_skyrim_markarth_bar.dds"
+		instance={
+			depth=1.010000
+			rotation=91
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_nord_dragontail.dds"
+		instance={
+			position={ 0.750000 0.140000 }
+			scale={ 0.710000 0.710000 }
+		}
+
+		instance={
+			position={ 0.250000 0.110000 }
+			scale={ -0.760000 0.760000 }
+			depth=2.010000
+		}
+
+	}
+}
+
+c_lesser_hvalcrea = {
+	pattern="pattern_nibeney.dds"
+	color1=skyrim_mblue
+	color2=white
+	color3=skyrim_dpurple
+	colored_emblem={
+		color1=yellow
+		texture="ce_skyrim_markarth_bar.dds"
+		instance={
+			depth=1.010000
+			rotation=91
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_nord_dragontail.dds"
+		instance={
+			position={ 0.750000 0.140000 }
+			scale={ 0.710000 0.710000 }
+		}
+
+		instance={
+			position={ 0.250000 0.110000 }
+			scale={ -0.760000 0.760000 }
+			depth=2.010000
+		}
+
+	}
+}
+
+d_rosbyrthuul = {
+	pattern="pattern_nibeney.dds"
+	color1=skyrim_mblue
+	color2=white
+	color3=skyrim_dpurple
+	colored_emblem={
+		color1=yellow
+		texture="ce_nord_flamehair_1.dds"
+		instance={
+			position={ 0.500000 0.320000 }
+			scale={ 0.590000 0.590000 }
+		}
+
+	}
+}
+
+c_rosbyrthuul = {
+	pattern="pattern_nibeney.dds"
+	color1=skyrim_mblue
+	color2=white
+	color3=skyrim_dpurple
+	colored_emblem={
+		color1=yellow
+		texture="ce_nord_flamehair_1.dds"
+		instance={
+			position={ 0.500000 0.320000 }
+			scale={ 0.590000 0.590000 }
+		}
+
+	}
+}
+
+d_miitvaal = {
+	pattern="pattern_nibeney.dds"
+	color1=skyrim_mblue
+	color2=white
+	color3=skyrim_dpurple
+	colored_emblem={
+		color1=yellow
+		texture="ce_nord_long_house.dds"
+		instance={
+			position={ 0.500000 0.210000 }
+			scale={ 0.830000 0.830000 }
+			rotation=180
+		}
+
+	}
+}
+
+c_miitvaal = {
+	pattern="pattern_nibeney.dds"
+	color1=skyrim_mblue
+	color2=white
+	color3=skyrim_dpurple
+	colored_emblem={
+		color1=yellow
+		texture="ce_nord_long_house.dds"
+		instance={
+			position={ 0.500000 0.210000 }
+			scale={ 0.830000 0.830000 }
+			rotation=180
+		}
+
+	}
+}
+
+d_dovlagr = {
+	pattern="pattern_nibeney.dds"
+	color1=skyrim_mblue
+	color2=white
+	color3=skyrim_dpurple
+	colored_emblem={
+		color1=yellow
+		texture="ce_nord_dragon.dds"
+		instance={
+			position={ 0.500000 0.430000 }
+			scale={ 0.750000 0.750000 }
+		}
+
+	}
+}
+
+c_dovlagr = {
+	pattern="pattern_nibeney.dds"
+	color1=skyrim_mblue
+	color2=white
+	color3=skyrim_dpurple
+	colored_emblem={
+		color1=yellow
+		texture="ce_nord_dragon.dds"
+		instance={
+			position={ 0.500000 0.430000 }
+			scale={ 0.750000 0.750000 }
+		}
+
+	}
+}
+
+d_daavrenbyr = {
+	pattern="pattern_nibeney.dds"
+	color1=skyrim_mblue
+	color2=white
+	color3=skyrim_dpurple
+	colored_emblem={
+		color1=yellow
+		texture="ce_roscrean_crane.dds"
+		instance={
+			position={ 0.5 0.35 }
+			scale={ 0.59 0.59 }
+		}
+
+	}
+}
+
+c_daavrenbyr = {
+	pattern="pattern_nibeney.dds"
+	color1=skyrim_mblue
+	color2=white
+	color3=skyrim_dpurple
+	colored_emblem={
+		color1=yellow
+		texture="ce_roscrean_crane.dds"
+		instance={
+			position={ 0.500000 0.350000 }
+			scale={ 0.590000 0.590000 }
+		}
+
+	}
+}
+
+d_werralcrea = {
+	pattern="pattern_nibeney.dds"
+	color1=skyrim_mblue
+	color2=white
+	color3=skyrim_dpurple
+	colored_emblem={
+		color1=yellow
+		color2=black
+		texture="ce_nord_jhunal_2.dds"
+		instance={
+			position={ 0.570000 0.320000 }
+			scale={ 0.600000 0.600000 }
+		}
+
+	}
+}
+
+c_werralcrea = {
+	pattern="pattern_nibeney.dds"
+	color1=skyrim_mblue
+	color2=white
+	color3=skyrim_dpurple
+	colored_emblem={
+		color1=yellow
+		color2=black
+		texture="ce_nord_jhunal_2.dds"
+		instance={
+			position={ 0.570000 0.320000 }
+			scale={ 0.600000 0.600000 }
+		}
+
+	}
+}
+
+k_olenveld = {
+	pattern="pattern_riften.dds"
+	color1=blue_light
+	color2=white
+	color3=skyrim_mgreen
+	colored_emblem={
+		color1=purple
+		texture="ce_nord_border_ornament.dds"
+		instance={
+			position={ 0.500000 0.460000 }
+			scale={ 0.750000 -0.750000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=purple
+		texture="ce_magnus.dds"
+		instance={
+			position={ 0.500000 0.410000 }
+			scale={ 0.550000 0.550000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=grey
+		color2=black
+		texture="ce_tamgha_roundel_frame.dds"
+		instance={
+			position={ 0.500000 0.450000 }
+			scale={ 0.780000 0.780000 }
+			depth=2.010000
+		}
+
+	}
+}
+
+d_olenveld = {
+	pattern="pattern_riften.dds"
+	color1=blue_light
+	color2=white
+	color3=skyrim_mgreen
+	colored_emblem={
+		color1=purple
+		texture="ce_nord_border_ornament.dds"
+		instance={
+			position={ 0.500000 0.460000 }
+			scale={ 0.750000 -0.750000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=purple
+		texture="ce_magnus.dds"
+		instance={
+			position={ 0.500000 0.410000 }
+			scale={ 0.550000 0.550000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=grey
+		color2=black
+		texture="ce_tamgha_roundel_frame.dds"
+		instance={
+			position={ 0.500000 0.450000 }
+			scale={ 0.780000 0.780000 }
+			depth=2.010000
+		}
+
+	}
+}
+
+c_olenveld = {
+	pattern="pattern_riften.dds"
+	color1=blue_light
+	color2=white
+	color3=skyrim_mgreen
+	colored_emblem={
+		color1=purple
+		texture="ce_nord_border_ornament.dds"
+		instance={
+			position={ 0.500000 0.460000 }
+			scale={ 0.750000 -0.750000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=purple
+		texture="ce_magnus.dds"
+		instance={
+			position={ 0.500000 0.410000 }
+			scale={ 0.550000 0.550000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=grey
+		color2=black
+		texture="ce_tamgha_roundel_frame.dds"
+		instance={
+			position={ 0.500000 0.450000 }
+			scale={ 0.780000 0.780000 }
+			depth=2.010000
+		}
+
+	}
+}

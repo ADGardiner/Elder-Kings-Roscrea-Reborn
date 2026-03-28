@@ -1,0 +1,462 @@
+﻿e_ghost_sea = {
+	color = { 175 150 210 }
+
+	capital = c_rosbyrthuul
+
+	k_roscrea = {
+		
+		color = { 130 99 207 }
+	
+		capital = c_rosbyrthuul
+	
+		d_hvalcrea = {
+		
+			color = { 91 78 187 }
+		
+			capital = c_lesser_hvalcrea
+			
+			c_lesser_hvalcrea = {
+				color = { 104 56 180 }
+
+				b_hvalbyr = {
+					province = 5556
+
+					color = { 127 100 192 }
+				}
+
+				b_hvalbyr_village = {
+					province = 5557
+
+					color = { 122 121 172 }
+				}
+
+				b_vinthuur = {
+					province = 5558
+
+					color = { 122 151 200 }
+				}
+
+			}
+
+			c_greater_hvalcrea = {
+				color = { 103 95 218 }
+
+				b_cape_of_hvalcrea = {
+					province = 5561
+					color = { 95 99 160 }
+				}
+
+				b_hvals_lookout = {
+					province = 5562
+					color = { 62 150 180 }
+				}
+
+				b_north_hvals_saddle = {
+					province = 5563
+					color = { 52 56 200 }
+				}
+
+				b_south_hvals_saddle = {
+					province = 5564
+					color = { 120 87 240 }
+				}
+			}
+			
+			c_the_sisters = {
+				color = { 68 66 209 }
+			
+				b_the_sisters = {
+					province = 5552
+			
+					color = { 126 99 191 }
+			
+				}
+			}
+			
+			c_north_hvalcrea = {
+	
+				color = { 74 73 149 }
+			
+				b_toem = {
+					province = 5553
+			
+					color = { 121 120 171 }
+				}
+			
+				b_drom = {
+					province = 5554
+			
+					color = { 121 150 201 }
+			
+				}
+			}
+		
+		}
+
+		d_rosbyrthuul = {
+			color = { 115 67 249 }
+			capital = c_rosbyrthuul
+
+			c_rosbyrthuul = {
+				color = { 147 51 225 }
+
+				b_rosbyrthuul = {
+					color = { 65 142 212 }
+					province = 5599
+				}
+
+				b_port_ros = {
+					color = { 75 134 206 }
+					province = 5620
+				}
+
+				b_rosbyrthuul_pass = {
+					color = { 65 142 212 }
+					province = 5608
+				}
+
+				b_rosbyrthuul_road = {
+					color = { 65 165 212 }
+					province = 5609
+				}
+
+				b_rosbyrthuul_outskirts = {
+					color = { 97 142 196 }
+					province = 5610
+				}
+			}
+
+			c_vignars_isle = {
+				color = { 83 48 248 }
+
+				b_cronan = {
+					province = 5566
+					color = { 190 212 232 }
+				}
+
+				b_ondan = {
+					province = 5567
+					color = { 180 230 190 }
+				}
+
+				b_turles = {
+					province = 5568
+					color = { 69 112 243 }
+				}
+
+				b_monsea = {
+					province = 5569
+					color = { 112 95 232 }
+				}
+			}
+
+			c_vinthuurkov = {
+				color = { 154 38 254 }
+
+				b_vinthuurkov = {
+					color = { 99 132 195 }
+					province = 5600
+				}
+
+				b_vinthuurkov_road = {
+					color = { 112 132 175 }
+					province = 5605
+				}
+
+				b_mjovanfella_caverns = {
+					color = { 107 155 174 }
+					province = 5604
+				}
+			}
+
+			c_fashokaaz = {
+				color = { 115 92 253 }
+
+				b_fashokaaz = {
+					color = { 102 122 187 }
+					province = 5601
+				}
+
+				b_fashokaaz_forest = {
+					color = { 98 142 176 }
+					province = 5606
+				}
+
+				b_fashokaaz_road = {
+					color = { 123 37 214 }
+					province = 5607
+				}
+			}
+
+			c_hare_forest = {
+				color = { 99 61 254 }
+
+				b_hare_forest = {
+					color = { 65 99 200 }
+					province = 5602
+				}
+
+				b_hermas_glade = {
+					color = { 75 120 190 }
+					province = 5603
+				}
+			}
+		}
+
+		d_dovlagr = {
+			color = { 131 68 189 }
+			capital = c_dovlagr
+
+			c_dovlagr = {
+				color = { 134 61 167 }
+
+				b_dovlagr = {
+					color = { 135 135 210 }
+					province = 5590
+				}
+
+				b_dovlart = {
+					color = { 162 201 201 }
+					province = 5591
+				}
+			}
+		}
+
+		d_miitvaal = {
+			color = { 140 74 254 }
+			capital = c_miitvaal
+
+			c_miitvaal = {
+				color = { 129 79 217 }
+
+				b_miitvaal = {
+					color = { 99 130 220 }
+					province = 5612
+				}
+
+				b_fierngrott = {
+					color = { 120 125 210 }
+					province = 5614
+				}
+
+				b_miitpass = {
+					color = { 130 125 178 }
+					province = 5615
+				}
+			}
+
+			c_raheen = {
+				color = { 169 43 251 }
+
+				b_raheen = {
+					color = { 165 175 165 }
+					province = 5611
+				}
+
+				b_fiern_pass = {
+					color = { 152 134 192 }
+					province = 5616
+				}
+
+				b_rosviith_cave = {
+					color = { 145 132 168 }
+					province = 5617
+				}
+			}
+
+			c_ice_flows = {
+				color = { 140 63 207 }
+
+				b_ice_flows = {
+					color = { 128 242 189 }
+					province = 5613
+				}
+
+				b_skalran = {
+					color = { 135 165 189 }
+					province = 5618
+				}
+			}
+		}
+
+		d_daavrenbyr = {
+			color = { 121 122 242 }
+			capital = c_daavrenbyr
+
+			c_daavrenbyr = {
+				color = { 146 126 254 }
+
+				b_daavrenbyr = {
+					color = { 99 130 220 }
+					province = 5578
+				}
+
+				b_daavrenbyr_docks = {
+					color = { 99 99 190 }
+					province = 5579
+				}
+
+				b_daavruuth = {
+					color = { 26 156 220 }
+					province = 5580
+				}
+			}
+
+			c_the_storm_rocks = {
+				color = { 96 119 202 }
+
+				b_the_storm_rocks = {
+					color = { 154 98 218 }
+					province = 5577
+				}
+			}
+
+			c_bjargo = {
+				color = { 136 136 236 }
+
+				b_bjargo = {
+					color = { 94 87 174 }
+					province = 5582
+				}
+
+				b_bay_overlook = {
+					color = { 65 87 180 }
+					province = 5581
+				}
+			}
+
+			c_caher = {
+				color = { 124 115 228 }
+
+				b_caher = {
+					color = { 65 78 138 }
+					province = 5583
+				}
+
+				b_gerac = {
+					color = { 92 56 173 }
+					province = 5586
+				}
+			}
+
+			c_esbert_forest = {
+				color = { 104 130 186 }
+
+				b_esbert_forest = {
+					color = { 89 18 176 }
+					province = 5585
+				}
+
+				b_esbert_road = {
+					color = { 89 94 176 }
+					province = 5584
+				}
+			}
+		}
+
+		d_werralcrea = {
+			color = { 184 69 248 }
+			capital = c_werralcrea
+
+			c_werralcrea = {
+				color = { 208 1 254 }
+				
+				b_werralcrea = {
+					color = { 76 23 181 }
+					province = 5594
+				}
+
+				b_werral_coast = {
+					color = { 26 15 184 }
+					province = 5595
+				}
+
+				b_werral_cape = {
+					color = { 59 68 127 }
+					province = 5596
+				}
+			}
+
+			c_konaholl = {
+				color = { 182 68 219 }
+
+				b_konaholl = {
+					color = { 98 120 120 }
+					province = 5597
+				}
+
+				b_konah_plains = {
+					color = { 150 120 99 }
+					province = 5598
+				}
+			}
+
+			c_gunders_fist = {
+
+				color = { 206 1 254 }
+				
+				b_gunderolt = {
+					province = 5572
+					color = { 45 68 170 }
+				}
+
+				b_last_port = {
+					province = 5571
+					color = { 70 61 181 }
+				}
+
+				b_gunders_fist = {
+					province = 5570
+					color = { 65 32 151 }
+				}
+			}
+
+			c_the_cold_divines = {
+				color = { 227 1 254 }
+
+				b_the_cold_hearths = {
+					province = 5573
+					color = { 95 45 162 }
+				}
+
+				b_the_cold_tests = {
+					province = 5574
+					color = { 64 49 132 }
+				}
+			}
+
+			c_isle_of_roots = {
+				color = { 147 64 254 }
+
+				b_isle_of_roots = {
+					color = { 25 59 130 }
+					province = 5576
+				}
+			}
+		}
+	
+	}
+
+	k_olenveld = {
+		color = { 246 174 234 }
+
+		capital = c_olenveld
+
+		d_olenveld = {
+			color = { 251 207 250 }
+
+			capital = c_olenveld
+
+			c_olenveld = {
+				color = { 254 229 250 }
+
+				b_olenveld = {
+					color = { 1 1 1 }
+
+					province = 5624
+				}
+			}
+		}
+	}
+}
+

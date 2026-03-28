@@ -1,0 +1,330 @@
+﻿# c_the_sisters
+5552 = {
+	culture = roscrean
+	religion = totemism
+
+	holding = tribal_holding
+}
+
+# c_north_hvalcrea
+5553 = {
+	culture = roscrean
+	religion = totemism
+
+	holding = tribal_holding
+}
+
+5554 = {
+	holding = none
+}
+
+# c_lesser_hvalcrea
+5556 = {
+	culture = roscrean
+	religion = totemism
+
+	holding = castle_holding
+}
+
+5557 = {
+	holding = city_holding
+}
+
+5558 = {
+	holding = none
+}
+
+# c_greater_hvalcrea
+5561 = {
+	culture = roscrean
+	religion = totemism
+
+	holding = tribal_holding
+}
+
+5562 = {
+	holding = none
+}
+
+5563 = {
+	holding = none
+}
+
+5564 = {
+	holding = none
+}
+
+# c_vignars_isle
+5566 = {
+	culture = roscrean
+	religion = totemism
+
+	holding = tribal_holding
+}
+
+5567 = {
+	holding = none
+}
+
+5568 = {
+	holding = none
+}
+
+5569 = {
+	holding = none
+}
+
+# c_gunders_fist
+5572 = {
+	culture = roscrean
+	religion = totemism
+
+	holding = castle_holding
+}
+
+5571 = {
+	holding = city_holding
+}
+
+5570 = {
+	holding = none
+}
+
+# c_the_cold_divines
+5573 = {
+	culture = roscrean
+	religion = totemism
+
+	holding = castle_holding
+}
+
+5574 = {
+	holding = none
+}
+
+# c_isle_of_roots
+5576 = {
+	culture = roscrean
+	religion = totemism
+	holding = castle_holding
+}
+
+# c_the_storm_rocks
+5577 = {
+	culture = roscrean
+	religion = totemism
+	holding = tribal_holding
+}
+
+# c_daavrenbyr
+5578 = {
+	culture = roscrean
+	religion = totemism
+
+	holding = castle_holding
+}
+
+5579 = {
+	holding = none
+}
+
+5580 = {
+	holding = none
+}
+
+# c_bjargo
+5582 = {
+	culture = roscrean
+	religion = totemism
+
+	holding = castle_holding
+}
+
+5581 = {
+	holding = none
+}
+
+# c_caher
+5583 = {
+	culture = roscrean
+	religion = totemism
+	holding = castle_holding
+}
+
+5586 = {
+	holding = none
+}
+
+# c_esbert_forest
+5585 = {
+	culture = roscrean
+	religion = hircine_cult
+	holding = tribal_holding
+}
+
+5584 = {
+	holding = none
+}
+
+# c_dovlagr
+5590 = {
+	culture = roscrean
+	religion = dragon_cult
+	
+	holding = church_holding
+
+	special_building = dovlagr_temple_01
+}
+
+5591 = {
+	holding = none
+}
+
+# c_werralcrea
+5594 = {
+	culture = roscrean
+	religion = totemism
+
+	holding = castle_holding
+}
+
+5595 = {
+	holding = none
+}
+
+5596 = {
+	holding = none
+}
+
+# c_konaholl
+5597 = {
+	culture = roscrean
+	religion = totemism
+
+	holding = castle_holding
+}
+
+5598 = {
+	holding = none
+}
+
+# c_rosbyrthuul
+5599 = {
+	culture = roscrean
+	religion = totemism
+
+	holding = castle_holding
+}
+
+5608 = {
+	holding = none
+}
+
+5609 = {
+	holding = none
+}
+
+5610 = {
+	holding = none
+}
+
+5620 = {
+	holding = city_holding
+}
+
+# c_vinthuurkov
+5600 = {
+	culture = roscrean
+	religion = totemism
+
+	holding = castle_holding
+}
+
+5604 = {
+	holding = none
+}
+
+5605 = {
+	holding = none
+}
+
+# c_fashokaaz
+5601 = {
+	culture = roscrean
+	religion = totemism
+
+	holding = castle_holding
+}
+
+5606 = {
+	holding = none
+}
+
+5607 = {
+	holding = none
+}
+
+# c_hare_forest
+5602 = {
+	culture = roscrean
+	religion = woodland_man
+
+	holding = tribal_holding
+}
+
+5603 = {
+	holding = none
+}
+
+# c_raheen
+5611 = {
+	culture = roscrean
+	religion = totemism
+
+	holding = castle_holding
+}
+
+5616 = {
+	holding = none
+}
+
+5617 = {
+	holding = none
+}
+
+# c_miitvaal
+5612 = {
+	culture = roscrean
+	religion = totemism
+
+	holding = castle_holding
+	special_building_slot = mithril_mine_01
+}
+
+5614 = {
+	holding = none
+}
+
+5615 = {
+	holding = none
+}
+
+# c_ice_flows
+5613 = {
+	culture = roscrean
+	religion = totemism
+
+	holding = tribal_holding
+}
+
+5618 = {
+	holding = none
+}
+
+# c_olenveld
+5624 = {
+	culture = eastmarcher
+	religion = ternion_totems
+
+	holding = tribal_holding
+}

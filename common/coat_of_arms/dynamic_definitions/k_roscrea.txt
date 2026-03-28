@@ -1,0 +1,6 @@
+﻿k_roscrea = {
+	item = {
+		trigger = { holder.dynasty = dynasty:dynn_Hvit_Brohe }
+		coat_of_arms = dynn_Hvit_Brohe
+	}
+}

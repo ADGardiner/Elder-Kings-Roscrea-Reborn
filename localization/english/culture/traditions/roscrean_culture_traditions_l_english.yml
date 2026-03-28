@@ -1,0 +1,6 @@
+﻿l_english:
+ language_roscrean_name: "Roscrean"
+ language_roscrean_desc: "The people of Roscrea speak their own dialect that evolved from old Atmoran after hundreds of years of isolation."
+ tradition_roscrean_core_name: "The Kinsmen of Ros"
+ tradition_roscrean_core_desc: "The people of Roscrea recognize the sea for what it is, source of life and of death, and are aware of the various goods and ills it may offer."
+ tradition_roscrean_core_trigger_desc: "Is either #V $roscrean$#! #italic or#! a [culture|E] descended from #V $roscrean$#!, and does not have the [GetCultureTradition('tradition_skaal_core').GetName|V] [tradition|E] or the [GetCultureTradition('tradition_nord_core').GetName|V] [tradition|E]."

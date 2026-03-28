@@ -1,0 +1,33 @@
+﻿roscrean = {
+	color = { 0.40 0.54 0.95 }
+
+	created = 350.1.1
+	parents = { atmoran }
+	history_loc_override = roscrean_history_loc
+	
+	ethos = ethos_spiritual
+	heritage = heritage_atmoran
+	language = language_roscrean
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_roscrean_core
+		tradition_maritime_mercantilism
+		tradition_runestones
+		tradition_isolationist
+		tradition_sacred_hunts
+	}
+	
+	name_list = name_list_atmoran
+	
+	coa_gfx = { norse_coa_gfx nord_group_coa_gfx }
+	building_gfx = { ek_nordic_building_gfx }
+	clothing_gfx = { ek_skaal_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	
+	ethnicities = {
+		15 = race_roscrean_1
+		13 = race_roscrean_2
+		13 = race_roscrean_3
+		14 = race_roscrean_4
+	}
+}

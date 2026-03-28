@@ -1,0 +1,95 @@
+﻿dynn_Hvit_Brohe = {
+	name = "dynn_Hvit_Brohe"
+	culture = roscrean
+}
+
+dynn_Hval = {
+	prefix = "dynnp_od"
+	name = "dynn_Hval"
+	culture = roscrean
+}
+
+dynn_Werral = {
+	prefix = "dynnp_od"
+	name = "dynn_Werral"
+	culture = roscrean
+}
+
+dynn_Matr_Fish = {
+	name = "dynn_Matr_Fish"
+	culture = roscrean
+}
+
+dynn_Fashokaaz = {
+	prefix = "dynnp_of"
+	name = "dynn_Fashokaaz"
+	culture = roscrean
+}
+
+dynn_Konaholl = {
+	prefix = "dynnp_of"
+	name = "dynn_Konaholl"
+	culture = roscrean
+}
+
+dynn_Gunderson = {
+	name = "dynn_Gunderson"
+	culture = roscrean
+}
+
+dynn_Cold_Winter = {
+	name = "dynn_Cold_Winter"
+	culture = roscrean
+}
+
+dynn_Venger = {
+	name = "dynn_Venger"
+	culture = roscrean
+}
+
+dynn_Vuun = {
+	name = "dynn_Vuun"
+	culture = roscrean
+}
+
+dynn_Thuunar = {
+	name = "dynn_Thuunar"
+	culture = roscrean
+}
+
+dynn_Daavren = {
+	prefix = "dynnp_od"
+	name = "dynn_Daavren"
+	culture = roscrean
+}
+
+dynn_Rukkel = {
+	name = "dynn_Rukkel"
+	culture = roscrean
+}
+
+dynn_Crane_Rock = {
+	name = "dynn_Crane_Rock"
+	culture = roscrean
+}
+
+dynn_Miitvaal = {
+	prefix = "dynnp_od"
+	name = "dynn_Miitvaal"
+	culture = roscrean
+}
+
+dynn_Frein = {
+	name = "dynn_Frein"
+	culture = roscrean
+}
+
+dynn_Wild_Wood = {
+	name = "dynn_Wild_Wood"
+	culture = roscrean
+}
+
+dynn_Esbert = {
+	name = "dynn_Esbert"
+	culture = roscrean
+}

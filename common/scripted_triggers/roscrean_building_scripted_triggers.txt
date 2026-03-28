@@ -1,0 +1,11 @@
+﻿roscrean_can_upgrade_dovlagr = {
+	AND = {
+		ek_upgrading_requirement_general = yes
+		county.holder = {
+			OR = {
+				has_trait = p_at_dragon
+				faith = faith:dragon_cult
+			}
+		}
+	}
+}

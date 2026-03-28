@@ -1,0 +1,17 @@
+﻿@roscrea = "gfx/interface/icons/culture_innovations/nativity/innovation_nativity_roscrea.dds"
+
+innovation_native_roscrea = {
+	group = culture_group_regional
+	culture_era = culture_era_nativity
+	potential = {
+		is_target_in_global_variable_list = {
+			name = culture_innovation_native_roscrea
+			target = this
+		}
+	}
+	icon = @roscrea
+	
+	custom = faster_culture_convert_roscrea
+	flag = nativity_innovation
+	flag = nativity_innovation_roscrea
+}

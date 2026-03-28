@@ -1,0 +1,7 @@
+﻿l_french:
+  roscrean:0 "Roscain"
+  roscrean_prefix:0 "Roscain"
+  roscrean_collective_noun:0 "Roscréens"
+  roscrean_desc:0 "Les habitants indigènes de Roscrea, qui à l'origine caméra à l'origine de l'atmora."
+  roscrean_opinion:0 "$roscrean$ Avis"
+  culture_custom_nativity_roscrea:0 "[GetGeographicalRegion('custom_nativity_roscrea').GetName]"

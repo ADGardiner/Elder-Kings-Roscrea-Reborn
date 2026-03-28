@@ -1,0 +1,201 @@
+﻿k_roscrea = {
+	3000.1.1 = { change_development_level = 4 }
+	3351.1.1 = { holder = hvit_brohe_100 }
+}
+
+d_rosbyrthuul = {
+	3351.1.1 = { holder = hvit_brohe_100 }
+}
+
+c_rosbyrthuul = {
+	3000.1.1 = { change_development_level = 7 }
+	3351.1.1 = { holder = hvit_brohe_100 }
+}
+
+c_hare_forest = {
+	3351.1.1 = {
+		holder = wildwood_100
+		liege = 0 
+	}
+}
+
+c_vinthuurkov = {
+	3000.1.1 = { change_development_level = 5 }
+	3351.1.1 = { 
+		liege = d_rosbyrthuul
+		holder = matrfish_100
+	}
+}
+
+c_fashokaaz = {
+	3000.1.1 = { change_development_level = 5 }
+	3351.1.1 = { 
+		liege = d_rosbyrthuul
+		holder = fashokaaz_100
+	}
+}
+
+c_vignars_isle = {
+	3351.1.1 = {
+		liege = 0
+		holder = coldwinter_100
+	}
+}
+
+d_werralcrea = {
+	3351.1.1 = { 
+		holder = werrallar_100
+		liege = k_roscrea
+	}
+}
+
+c_werralcrea = {
+	3000.1.1 = { change_development_level = 6 }
+	3351.1.1 = { holder = werrallar_100 }
+}
+
+c_the_cold_divines = {
+	3351.1.1 = {
+		holder = werrallar_100
+	}
+}
+
+c_konaholl = {
+	3000.1.1 = { change_development_level = 5 }
+	3351.1.1 = {
+		liege = k_roscrea
+		holder = konaholl_100
+	}
+}
+
+c_gunders_fist = {
+	3351.1.1 = {
+		liege = 0
+		holder = gunderson_100
+	}
+}
+
+c_isle_of_roots = {
+	3351.1.1 = {
+		liege = 0
+		holder = gunderson_100
+	}
+}
+
+d_hvalcrea = {
+	3351.1.1 = { holder = hvallar_100 }
+}
+
+c_lesser_hvalcrea = {
+	3351.1.1 = { holder = hvallar_100 }
+}
+
+c_north_hvalcrea = {
+	3351.1.1 = {
+		holder = vuun_100
+		liege = d_hvalcrea 
+	}
+}
+
+c_greater_hvalcrea = {
+	3351.1.1 = {
+		holder = thuunar_100
+		liege = d_hvalcrea
+	}
+}
+
+c_the_sisters = {
+	3351.1.1 = {
+		holder = venger_100
+		liege = d_hvalcrea
+	}
+}
+
+d_dovlagr = {
+	3000.1.1 = { change_development_level = 8 }
+	3351.1.1 = {
+		liege = 0
+		holder = dovlagr_100
+	}
+}
+
+c_dovlagr = {
+	3351.1.1 = {
+		liege = 0
+		holder = dovlagr_100
+	}
+}
+
+
+d_daavrenbyr = {
+	3000.1.1 = { change_development_level = 5 }
+	3351.1.1 = {
+		liege = 0
+		holder = daavren_100
+	}
+}
+
+c_daavrenbyr = {
+	3351.1.1 = {
+		liege = 0
+		holder = daavren_100
+	}
+}
+
+c_bjargo = {
+	3351.1.1 = {
+		liege = 0
+		holder = daavren_100
+	}
+}
+
+c_caher = {
+	3351.1.1 = {
+		liege = d_daavrenbyr
+		holder = cranerock_100
+	}
+}
+
+c_the_storm_rocks = {
+	3351.1.1 = {
+		liege = 0
+		holder = rukkel_100
+	}
+}
+
+c_esbert_forest = {
+	3351.1.1 = {
+		liege = 0
+		holder = esbert_100
+	}
+}
+
+c_miitvaal = {
+	3000.1.1 = { change_development_level = 5 }
+	3351.1.1 = {
+		liege = k_roscrea
+		holder = miitvaal_100
+	}
+}
+
+c_raheen = {
+	3351.1.1 = {
+		liege = k_roscrea
+		holder = miitvaal_100
+	}
+}
+
+c_ice_flows = {
+	3351.1.1 = {
+		liege = 0
+		holder = frein_100
+	}
+}
+
+c_olenveld = {
+	3000.1.1 = { change_development_level = 2 }
+	3351.1.1 = {
+		liege = 0
+		holder = olenveld_100
+	}
+}
