@@ -1,47 +1,10 @@
-﻿is_native_to = {
-	$CULTURE$ = { has_innovation = innovation_native_$REGION$ }
-}
-
-is_in_list_native_to = {
-	is_target_in_global_variable_list = {
-		name = culture_innovation_native_$REGION$
-		target = this
-	}
-}
-
-is_native_from_somewhere = {
+is_native_to = {
 	$CULTURE$ = {
-		OR = {
-			has_innovation_flag = nativity_innovation_high_rock
-			has_innovation_flag = nativity_innovation_hammerfell
-			has_innovation_flag = nativity_innovation_cyrodiil
-			has_innovation_flag = nativity_innovation_skyrim
-			has_innovation_flag = nativity_innovation_yokuda
-			has_innovation_flag = nativity_innovation_summerset_isles
-			has_innovation_flag = nativity_innovation_valenwood
-			has_innovation_flag = nativity_innovation_elsweyr
-			has_innovation_flag = nativity_innovation_morrowind
-			has_innovation_flag = nativity_innovation_black_marsh
-			has_innovation_flag = nativity_innovation_roscrea
+		is_target_in_variable_list = {
+			name = nativity_regions
+			target = geographical_region:custom_nativity_$REGION$
 		}
 	}
-}
-
-is_native_to_skyrim = {
-	$CULTURE$ = {
-		OR = {
-			has_innovation = innovation_native_karth
-			has_innovation = innovation_native_white_river
-			has_innovation = innovation_native_west_ghost
-			has_innovation = innovation_native_east_ghost
-			has_innovation = innovation_native_dark_water
-			has_innovation = innovation_native_solstheim
-		}
-	}
-}
-
-is_native_to_province = { # $PROVINCE$ = high_rock|hammerfell|cyrodiil|...
-	$CULTURE$ = { has_innovation_flag = nativity_innovation_$PROVINCE$ }
 }
 
 is_native_to_county = {
@@ -65,7 +28,7 @@ is_native_to_county = {
 		limit = { $COUNTY$.title_province = { geographical_region = custom_nativity_bangkorai } }
 		is_native_to = { CULTURE = $CULTURE$ REGION = bangkorai }
 	}
-	
+
 	trigger_else_if = {
 		limit = { $COUNTY$.title_province = { geographical_region = custom_nativity_craglorn } }
 		is_native_to = { CULTURE = $CULTURE$ REGION = craglorn }
@@ -75,18 +38,22 @@ is_native_to_county = {
 		is_native_to = { CULTURE = $CULTURE$ REGION = alikr }
 	}
 	trigger_else_if = {
-		limit = { $COUNTY$.title_province = { geographical_region = custom_nativity_brena } }
-		is_native_to = { CULTURE = $CULTURE$ REGION = brena }
+		limit = { $COUNTY$.title_province = { geographical_region = custom_nativity_crownlands } }
+		is_native_to = { CULTURE = $CULTURE$ REGION = crownlands }
 	}
 	trigger_else_if = {
-		limit = { $COUNTY$.title_province = { geographical_region = custom_nativity_sunforge } }
-		is_native_to = { CULTURE = $CULTURE$ REGION = sunforge }
+		limit = { $COUNTY$.title_province = { geographical_region = custom_nativity_southern_iliac } }
+		is_native_to = { CULTURE = $CULTURE$ REGION = southern_iliac }
+	}
+	trigger_else_if = {
+		limit = { $COUNTY$.title_province = { geographical_region = custom_nativity_deathlands } }
+		is_native_to = { CULTURE = $CULTURE$ REGION = deathlands }
 	}
 	trigger_else_if = {
 		limit = { $COUNTY$.title_province = { geographical_region = custom_nativity_abecee } }
 		is_native_to = { CULTURE = $CULTURE$ REGION = abecee }
 	}
-	
+
 	trigger_else_if = {
 		limit = { $COUNTY$.title_province = { geographical_region = custom_nativity_heartlands } }
 		is_native_to = { CULTURE = $CULTURE$ REGION = heartlands }
@@ -115,7 +82,7 @@ is_native_to_county = {
 		limit = { $COUNTY$.title_province = { geographical_region = custom_nativity_nibenese_lowlands } }
 		is_native_to = { CULTURE = $CULTURE$ REGION = nibenese_lowlands }
 	}
-	
+
 	trigger_else_if = {
 		limit = { $COUNTY$.title_province = { geographical_region = custom_nativity_karth } }
 		is_native_to = { CULTURE = $CULTURE$ REGION = karth }
@@ -144,11 +111,12 @@ is_native_to_county = {
 		limit = { $COUNTY$.title_province = { geographical_region = custom_nativity_roscrea } }
 		is_native_to = { CULTURE = $CULTURE$ REGION = roscrea }
 	}
+
 	trigger_else_if = {
 		limit = { $COUNTY$.title_province = { geographical_region = custom_nativity_yokuda } }
 		is_native_to = { CULTURE = $CULTURE$ REGION = yokuda }
 	}
-	
+
 	trigger_else_if = {
 		limit = { $COUNTY$.title_province = { geographical_region = custom_nativity_auridon } }
 		is_native_to = { CULTURE = $CULTURE$ REGION = auridon }
@@ -157,7 +125,7 @@ is_native_to_county = {
 		limit = { $COUNTY$.title_province = { geographical_region = custom_nativity_summerset } }
 		is_native_to = { CULTURE = $CULTURE$ REGION = summerset }
 	}
-	
+
 	trigger_else_if = {
 		limit = { $COUNTY$.title_province = { geographical_region = custom_nativity_grahtwood } }
 		is_native_to = { CULTURE = $CULTURE$ REGION = grahtwood }
@@ -174,7 +142,7 @@ is_native_to_county = {
 		limit = { $COUNTY$.title_province = { geographical_region = custom_nativity_reaper_march } }
 		is_native_to = { CULTURE = $CULTURE$ REGION = reaper_march }
 	}
-	
+
 	trigger_else_if = {
 		limit = { $COUNTY$.title_province = { geographical_region = custom_nativity_anequina } }
 		is_native_to = { CULTURE = $CULTURE$ REGION = anequina }
@@ -183,7 +151,7 @@ is_native_to_county = {
 		limit = { $COUNTY$.title_province = { geographical_region = custom_nativity_pellitine } }
 		is_native_to = { CULTURE = $CULTURE$ REGION = pellitine }
 	}
-	
+
 	trigger_else_if = {
 		limit = { $COUNTY$.title_province = { geographical_region = custom_nativity_vvardenfell } }
 		is_native_to = { CULTURE = $CULTURE$ REGION = vvardenfell }
@@ -197,6 +165,10 @@ is_native_to_county = {
 		is_native_to = { CULTURE = $CULTURE$ REGION = greater_deshaan }
 	}
 	trigger_else_if = {
+		limit = { $COUNTY$.title_province = { geographical_region = custom_nativity_thir } }
+		is_native_to = { CULTURE = $CULTURE$ REGION = thir }
+	}
+	trigger_else_if = {
 		limit = { $COUNTY$.title_province = { geographical_region = custom_nativity_padomay_coast } }
 		is_native_to = { CULTURE = $CULTURE$ REGION = padomay_coast }
 	}
@@ -204,7 +176,7 @@ is_native_to_county = {
 		limit = { $COUNTY$.title_province = { geographical_region = custom_nativity_southern_marshes } }
 		is_native_to = { CULTURE = $CULTURE$ REGION = southern_marshes }
 	}
-	
+
 	trigger_else_if = {
 		limit = { $COUNTY$.title_province = { geographical_region = custom_nativity_middle_argonia } }
 		is_native_to = { CULTURE = $CULTURE$ REGION = middle_argonia }
@@ -224,20 +196,17 @@ is_native_to_county = {
 	trigger_else = {}
 }
 
-is_native_to_capital = {
-	is_native_to_county = { CULTURE = $CHARACTER$.culture COUNTY = $CHARACTER$.capital_county }
-}
-
 ### Culture creation decisions
 create_local_culture_decision_is_shown_scripted_trigger = {
 	# Is part of a culture group that has a culture native to this province
 	any_culture_global = {
-		has_same_culture_heritage = root.culture
-		has_innovation = innovation_native_$REGION$
-		NOT = { culture_is_alive = yes }
-		NOT = { has_innovation = innovation_extinct_race }
+		has_same_culture_heritage = root.culture #same heritage as you
+		is_native_to = { REGION = $REGION$ CULTURE = this } #is native to the region in question
+		NOT = { is_native_to = { REGION = $REGION$ CULTURE = root.culture } } #doesn't share nativity with your culture
+		NOT = { culture_is_alive = yes } #is dead and can therefore be revived
+		NOT = { has_innovation = innovation_extinct_race } #can't be too dead
 	}
-	
+
 	any_realm_province = { geographical_region = custom_nativity_$REGION$ }
 }
 
@@ -266,5 +235,62 @@ create_local_culture_decision_is_valid_scripted_trigger = {
 				}
 			}
 		}
+	}
+}
+
+ek_eligible_to_add_nativity_region = {
+	NOT = { is_native_to = { REGION = $REGION$  CULTURE = root.culture } }
+	any_county_in_region = {
+		region = custom_nativity_$REGION$
+		culture = root.culture
+	}
+}
+
+ek_no_available_nativity_regions = {
+	NOR = {
+		ek_eligible_to_add_nativity_region = { REGION = glenumbra }
+		ek_eligible_to_add_nativity_region = { REGION = rivenspire }
+		ek_eligible_to_add_nativity_region = { REGION = stormhaven }
+		ek_eligible_to_add_nativity_region = { REGION = greater_wrothgar }
+		ek_eligible_to_add_nativity_region = { REGION = bangkorai }
+		ek_eligible_to_add_nativity_region = { REGION = craglorn }
+		ek_eligible_to_add_nativity_region = { REGION = alikr }
+		ek_eligible_to_add_nativity_region = { REGION = deathlands }
+		ek_eligible_to_add_nativity_region = { REGION = southern_iliac }
+		ek_eligible_to_add_nativity_region = { REGION = crownlands }
+		ek_eligible_to_add_nativity_region = { REGION = abecee }
+		ek_eligible_to_add_nativity_region = { REGION = heartlands }
+		ek_eligible_to_add_nativity_region = { REGION = gold_coast }
+		ek_eligible_to_add_nativity_region = { REGION = west_weald }
+		ek_eligible_to_add_nativity_region = { REGION = colovian_highlands }
+		ek_eligible_to_add_nativity_region = { REGION = jerall_mountains }
+		ek_eligible_to_add_nativity_region = { REGION = nibenay_basin }
+		ek_eligible_to_add_nativity_region = { REGION = nibenese_lowlands }
+		ek_eligible_to_add_nativity_region = { REGION = karth }
+		ek_eligible_to_add_nativity_region = { REGION = white_river }
+		ek_eligible_to_add_nativity_region = { REGION = west_ghost }
+		ek_eligible_to_add_nativity_region = { REGION = east_ghost }
+		ek_eligible_to_add_nativity_region = { REGION = dark_water }
+		ek_eligible_to_add_nativity_region = { REGION = solstheim }
+		ek_eligible_to_add_nativity_region = { REGION = roscrea }
+		ek_eligible_to_add_nativity_region = { REGION = yokuda }
+		ek_eligible_to_add_nativity_region = { REGION = auridon }
+		ek_eligible_to_add_nativity_region = { REGION = summerset }
+		ek_eligible_to_add_nativity_region = { REGION = grahtwood }
+		ek_eligible_to_add_nativity_region = { REGION = greenshade }
+		ek_eligible_to_add_nativity_region = { REGION = malabal_tor }
+		ek_eligible_to_add_nativity_region = { REGION = reaper_march }
+		ek_eligible_to_add_nativity_region = { REGION = anequina }
+		ek_eligible_to_add_nativity_region = { REGION = pellitine }
+		ek_eligible_to_add_nativity_region = { REGION = vvardenfell }
+		ek_eligible_to_add_nativity_region = { REGION = velothi_range }
+		ek_eligible_to_add_nativity_region = { REGION = greater_deshaan }
+		ek_eligible_to_add_nativity_region = { REGION = padomay_coast }
+		ek_eligible_to_add_nativity_region = { REGION = southern_marshes }
+		ek_eligible_to_add_nativity_region = { REGION = middle_argonia }
+		ek_eligible_to_add_nativity_region = { REGION = onkobra }
+		ek_eligible_to_add_nativity_region = { REGION = black_bays }
+		ek_eligible_to_add_nativity_region = { REGION = padomaic_marshes }
+
 	}
 }
