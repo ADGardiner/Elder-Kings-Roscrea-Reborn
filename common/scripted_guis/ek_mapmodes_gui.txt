@@ -1,4 +1,4 @@
-nativity_regions_map = {
+﻿nativity_regions_map = {
 	effect = {
 		if = {
 			limit = { NOT = { global_var:custom_map_mode = flag:nativity_regions_map } }

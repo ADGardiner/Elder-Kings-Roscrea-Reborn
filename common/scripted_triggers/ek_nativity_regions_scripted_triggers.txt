@@ -1,4 +1,4 @@
-is_native_to = {
+﻿is_native_to = {
 	$CULTURE$ = {
 		is_target_in_variable_list = {
 			name = nativity_regions

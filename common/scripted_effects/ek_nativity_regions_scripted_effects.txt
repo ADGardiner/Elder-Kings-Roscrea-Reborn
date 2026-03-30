@@ -1,4 +1,4 @@
-save_culture_in_global_list = {
+﻿save_culture_in_global_list = {
 	$CULTURE$ = { save_scope_as = culture_to_save }
 	add_to_global_variable_list = {
 		name = culture_list

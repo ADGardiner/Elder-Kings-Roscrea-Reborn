@@ -1,4 +1,4 @@
-ek_on_game_start_culture = {
+﻿ek_on_game_start_culture = {
 	effect = {
 		ek_nativity_region_injector = { EFFECT = ek_nativity_region_linker }
 

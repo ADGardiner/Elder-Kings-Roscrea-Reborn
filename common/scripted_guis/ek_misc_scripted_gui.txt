@@ -1,4 +1,4 @@
-culture_dead = {
+﻿culture_dead = {
     scope = culture
 
     is_shown = { culture_is_alive = no }

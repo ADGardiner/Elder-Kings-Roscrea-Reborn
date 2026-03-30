@@ -1,4 +1,4 @@
-# Culture on actions.
+﻿# Culture on actions.
 
 # Root is the culture
 ek_on_culture_era_changed = {
