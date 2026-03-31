@@ -1,7 +1,3 @@
-0.1.1 = {
-	join_era = culture_era_tribal
-}
-
 1000.1.1 = {
 	discover_innovation = innovation_bannus
 	discover_innovation = innovation_catapult
@@ -18,6 +14,5 @@
 	discover_innovation = innovation_sanded_wood
 	discover_innovation = innovation_steel_spearhead
 	discover_innovation = innovation_horse_breeding
-	discover_innovation = innovation_skald_tradition
 	discover_innovation = innovation_might_makes_right
 }

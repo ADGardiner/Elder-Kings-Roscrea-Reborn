@@ -324,7 +324,7 @@
 # c_olenveld
 5624 = {
 	culture = eastmarcher
-	religion = ternion_totems
+	religion = totemism
 
 	holding = tribal_holding
 }

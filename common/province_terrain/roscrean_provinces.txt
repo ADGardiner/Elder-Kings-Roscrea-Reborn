@@ -1,4 +1,4 @@
-﻿5552=taiga_hills
+﻿5552=taiga
 5553=mountains
 5554=mountains
 # 5555= Impassable
@@ -7,10 +7,10 @@
 5558=mountains
 # 5559 Impassble
 # 5560 Impassble
-5561=taiga_hills
+5561=taiga
 5562=mountains
-5563=taiga_hills
-5564=taiga_hills
+5563=taiga
+5564=taiga
 # 5565 impassble
 5566=mountains
 5567=mountains
@@ -19,11 +19,11 @@
 5570=hills
 5571=plains
 5572=farmlands
-5573=wasteland
-5574=wasteland
+#5573=wasteland
+#5574=wasteland
 # 5575=impassable
 5576=forest
-5577=wasteland
+#5577=wasteland
 5578=plains
 5579=plains
 5580=farmlands
@@ -47,7 +47,7 @@
 5598=plains
 5599=taiga
 5600=taiga
-5601=taiga_hills
+5601=taiga
 5602=taiga
 5603=taiga
 5604=taiga
@@ -57,12 +57,12 @@
 5608=taiga
 5609=taiga
 5610=taiga
-5611=taiga_hills
+5611=taiga
 5612=mountains
 5613=tundra
-5614=taiga_hills
-5615=taiga_hills
-5616=taiga_hills
+5614=taiga
+5615=taiga
+5616=taiga
 5617=mountains
 5618=tundra
 #5619=impassable

@@ -1,4 +1,4 @@
-tradition_roscrean_core = {
+﻿tradition_roscrean_core = {
     category = core
 
     layers = {
@@ -15,7 +15,7 @@ tradition_roscrean_core = {
 		custom_tooltip = {
 			text = tradition_roscrean_core_trigger_desc
 			NOT = { has_cultural_tradition = tradition_skaal_core }
-			NOT = { has_cultural_pillar = tradition_nord_core }
+			NOT = { has_cultural_tradition = tradition_nord_core }
 			has_cultural_pillar = heritage_atmoran
 			OR = {
 				this = culture:roscrean

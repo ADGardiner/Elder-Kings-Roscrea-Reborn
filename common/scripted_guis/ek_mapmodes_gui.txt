@@ -33,29 +33,37 @@
 				else_if = {
 					limit = { title_province = { geographical_region = custom_nativity_craglorn } }
 					set_color_from_title = title:c_lankara
-				} else_if = {
+				}
+				else_if = {
 					limit = { title_province = { geographical_region = custom_nativity_alikr } }
-					set_color_from_title = title:d_tigonus
-				} else_if = {
-					limit = { title_province = { geographical_region = custom_nativity_brena } }
-					set_color_from_title = title:d_hadaf
-				} else_if = {
-					limit = { title_province = { geographical_region = custom_nativity_sunforge } }
-					set_color_from_title = title:c_java
-				} else_if = {
+					set_color_from_title = title:d_kelps
+				}
+				else_if = {
+					limit = { title_province = { geographical_region = custom_nativity_crownlands } }
+					set_color_from_title = title:c_gilane
+				}
+				else_if = {
+					limit = { title_province = { geographical_region = custom_nativity_deathlands } }
+					set_color_from_title = title:c_rihad
+				}
+				else_if = {
+					limit = { title_province = { geographical_region = custom_nativity_southern_iliac } }
+					set_color_from_title = title:d_thorstad
+				}
+				else_if = {
 					limit = { title_province = { geographical_region = custom_nativity_abecee } }
 					set_color_from_title = title:d_hnas
 				}
 				#cyrodiil
 				else_if = {
 					limit = { title_province = { geographical_region = custom_nativity_heartlands } }
-					set_color_from_title = title:d_imperial_isle
+					set_color_from_title = title:c_aleswell
 				} else_if = {
 					limit = { title_province = { geographical_region = custom_nativity_gold_coast } }
 					set_color_from_title = title:d_crowhaven
 				} else_if = {
 					limit = { title_province = { geographical_region = custom_nativity_west_weald } }
-					set_color_from_title = title:d_nisin
+					set_color_from_title = title:d_delodiil
 				} else_if = {
 					limit = { title_province = { geographical_region = custom_nativity_colovian_highlands } }
 					set_color_from_title = title:d_greenlake
@@ -64,7 +72,7 @@
 					set_color_from_title = title:d_bruma
 				} else_if = {
 					limit = { title_province = { geographical_region = custom_nativity_nibenay_basin } }
-					set_color_from_title = title:d_ghartok
+					set_color_from_title = title:c_newt
 				} else_if = {
 					limit = { title_province = { geographical_region = custom_nativity_nibenese_lowlands } }
 					set_color_from_title = title:d_leyawiin
@@ -87,7 +95,12 @@
 					set_color_from_title = title:d_mistwatch
 				} else_if = {
 					limit = { title_province = { geographical_region = custom_nativity_solstheim } }
-					set_color_from_title = title:d_snowfallow
+					set_color_from_title = title:c_frostmoth
+				}
+				#roscrea
+				else_if = {
+					limit = { title_province = { geographical_region = custom_nativity_roscrea } }
+					set_color_from_title = title:k_roscrea
 				}
 				#yokuda
 				else_if = {
@@ -129,18 +142,26 @@
 				else_if = {
 					limit = { title_province = { geographical_region = custom_nativity_vvardenfell } }
 					set_color_from_title = title:d_ascadia
-				} else_if = {
+				}
+				else_if = {
 					limit = { title_province = { geographical_region = custom_nativity_velothi_range } }
 					set_color_from_title = title:d_blacklight
-				} else_if = {
+				}
+				else_if = {
 					limit = { title_province = { geographical_region = custom_nativity_greater_deshaan } }
+					set_color_from_title = title:d_mournhold
+				}
+				else_if = {
+					limit = { title_province = { geographical_region = custom_nativity_thir } }
 					set_color_from_title = title:d_narsis
-				} else_if = {
+				}
+				else_if = {
 					limit = { title_province = { geographical_region = custom_nativity_padomay_coast } }
 					set_color_from_title = title:d_telvannis
-				} else_if = {
+				}
+				else_if = {
 					limit = { title_province = { geographical_region = custom_nativity_southern_marshes } }
-					set_color_from_title = title:d_hairab
+					set_color_from_title = title:d_karag
 				}
 				#blackmarsh
 				else_if = {
@@ -155,11 +176,6 @@
 				} else_if = {
 					limit = { title_province = { geographical_region = custom_nativity_padomaic_marshes } }
 					set_color_from_title = title:d_arnesia
-				}
-				#roscrea
-				else_if = {
-					limit = { title_province = { geographical_region = custom_nativity_roscrea } }
-					set_color_from_title = title:k_roscrea
 				}
 			}
 			remove_global_variable = custom_map_mode_changing
