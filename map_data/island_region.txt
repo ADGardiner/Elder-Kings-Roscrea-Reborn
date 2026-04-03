@@ -163,6 +163,15 @@ island_region_roscrea = {
 		c_miitvaal
 		c_esbert_forest
 	}
+	provinces = {
+		5756 # frulth_lake
+		5768 # southern_miitvaal_mountains
+		5769 # northern_miitvaal_mountains
+		5770 # rosbyr_mountains
+		5773 # vinthuurkov_mountains
+		5774 # werral_mountains
+		5800 # windrise_peak
+	}
 }
 
 island_region_olenveld = {
