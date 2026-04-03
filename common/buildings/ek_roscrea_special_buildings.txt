@@ -13,14 +13,15 @@ mithril_mine_01 = {
 
 	type_icon = "icon_structure_mines.dds"
 
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
 	can_construct = {
 		building_requirement_castle_city_church = { LEVEL = 01 }
 		culture = {
 			has_innovation = innovation_crop_rotation
 		}
-	}
-	can_construct_showing_failures_only = {
-		ek_building_requirement_general = yes
 	}
 	
 	cost_gold = expensive_building_tier_3_cost
@@ -56,14 +57,15 @@ mithril_mine_02 = {
 
 	type_icon = "icon_structure_mines.dds"
 
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
 	can_construct = {
 		building_requirement_castle_city_church = { LEVEL = 02 }
 		culture = {
 			has_innovation = innovation_manorialism
 		}
-	}
-	can_construct_showing_failures_only = {
-		ek_upgrading_requirement_general = yes
 	}
 	
 	cost_gold = expensive_building_tier_4_cost
@@ -99,14 +101,15 @@ mithril_mine_03 = {
 
 	type_icon = "icon_structure_mines.dds"
 
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
 	can_construct = {
 		building_requirement_castle_city_church = { LEVEL = 03 }
 		culture = {
 			has_innovation = innovation_windmills
 		}
-	}
-	can_construct_showing_failures_only = {
-		ek_upgrading_requirement_general = yes
 	}
 	
 	cost_gold = expensive_building_tier_5_cost
@@ -142,14 +145,15 @@ mithril_mine_04 = {
 
 	type_icon = "icon_structure_mines.dds"
 
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
 	can_construct = {
 		building_requirement_castle_city_church = { LEVEL = 04 }
 		culture = {
 			has_innovation = innovation_cranes
 		}
-	}
-	can_construct_showing_failures_only = {
-		ek_upgrading_requirement_general = yes
 	}
 	
 	cost_gold = expensive_building_tier_6_cost

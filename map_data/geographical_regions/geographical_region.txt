@@ -16,11 +16,11 @@
 #	These groups are mutually exclusive on the same tier & should cover every part of the map
 ###########################################################################
 
-### Sea of ghosts
+### Sea of Ghosts
 mundus_ghost_sea_roscrea = {
-	counties = { 
+	counties = {
 		c_the_sisters
-		c_north_hvalcrea 
+		c_north_hvalcrea
 		c_lesser_hvalcrea
 		c_greater_hvalcrea
 		c_vignars_isle
@@ -55,17 +55,13 @@ mundus_ghost_sea_olenveld = {
 mundus_tamriel_high_rock_balfiera = { 
 	duchies = { d_balfiera }
 }
-mundus_tamriel_high_rock_betony = {
-	duchies = { d_betony }
-}
 direnni_allowed_expansion = {
 	duchies = { d_bhoriane d_koegria }
 }
 
 ## GLENUMBRA: Daggerfall + Camlorn
 mundus_tamriel_high_rock_daggerfall = { 
-	duchies = { d_daggerfall d_daenia d_northmoor d_anticlere }
-	regions = { mundus_tamriel_high_rock_betony }
+	duchies = { d_daggerfall d_daenia d_northmoor d_anticlere d_betony }
 }
 mundus_tamriel_high_rock_camlorn = { 
 	duchies = { d_camlorn d_kambria d_bhoriane d_cambray }
@@ -106,12 +102,17 @@ mundus_tamriel_high_rock_jehanna = {
 mundus_tamriel_high_rock_greater_wrothgar = { 
 	regions = { mundus_tamriel_high_rock_wrothgar mundus_tamriel_high_rock_fharun mundus_tamriel_high_rock_jehanna }
 }
-
+mundus_high_rock_settle_wrothgar = { #Regions for decision to settle wrothgar with Jehanna
+	regions = { mundus_tamriel_high_rock_wrothgar mundus_tamriel_high_rock_fharun }
+}
 ## Evermore
 mundus_tamriel_high_rock_evermore = { 
 	duchies = { d_evermore d_mournoth d_dunkarn }
 }
-
+## Greater Evermore if Reach Empire formed without West Reach Kingdom formed
+mundus_tamriel_high_rock_greater_evermore = { 
+	duchies = { d_evermore d_mournoth d_dunkarn d_gavaudon}
+}
 ## COMPLETE HIGH ROCK
 mundus_tamriel_high_rock = { 
 	regions = { mundus_tamriel_high_rock_glenumbra mundus_tamriel_high_rock_rivenspire mundus_tamriel_high_rock_stormhaven mundus_tamriel_high_rock_greater_wrothgar mundus_tamriel_high_rock_evermore mundus_tamriel_high_rock_balfiera }
@@ -121,10 +122,10 @@ mundus_tamriel_high_rock = {
 ## All coastal duchies along the Iliac Bay
 mundus_tamriel_iliac_bay_high_rock = {
 	duchies = { d_daggerfall d_daenia d_anticlere d_cambray d_bhoriane d_koegria d_alcaire d_wayrest d_gavaudon }
-}	
+}
 mundus_tamriel_iliac_bay_hammerfell = {	
-	duchies = { d_thorstad d_lainlyn d_sentinel d_pothago d_abibon }
-}	
+	duchies = { d_sentinel d_tigonus d_lainlyn d_thorstad d_pothago  }
+}
 mundus_tamriel_iliac_bay_islands = {
 	duchies = { d_balfiera d_betony }
 }
@@ -140,23 +141,39 @@ mundus_tamriel_iliac_bay = {
 	#regions = {mundus_tamriel_hammerfell_alikr_desert mundus_tamriel_hammerfell_bangkorai mundus_tamriel_high_rock_stormhaven mundus_tamriel_high_rock_glenumbra}
 
 ### HAMMERFELL
-## ALIK'R: Sentinel, Hegathe, Taneth & Sunforge
-mundus_tamriel_hammerfell_sentinel = {
-	duchies = { d_sentinel d_tigonus d_lainlyn d_bergama }
-}
+## CROWNLANDS: Hegathe + Gilane
 mundus_tamriel_hammerfell_hegathe = { 
 	duchies = { d_hegathe d_pothago d_abibon }
 }
+mundus_tamriel_hammerfell_gilane = { 
+	duchies = { d_gilane d_khefrem d_lainebon }
+}
+mundus_tamriel_hammerfell_crownlands = {
+	regions = { mundus_tamriel_hammerfell_hegathe mundus_tamriel_hammerfell_gilane }
+}
+
+## SOUTHERN ILIAC: Sentinel + Ojwambu
+mundus_tamriel_hammerfell_sentinel = {
+	duchies = { d_sentinel d_tigonus d_lainlyn d_myrkwasa }
+}
+mundus_tamriel_hammerfell_hallin = { 
+	duchies = { d_ojwambu d_fallen_wastes d_thorstad }
+}
+mundus_tamriel_hammerfell_southern_iliac = {
+	regions = { mundus_tamriel_hammerfell_sentinel mundus_tamriel_hammerfell_hallin }
+}
+
+## ALIK'R: Alik'r
 mundus_tamriel_hammerfell_alikr_desert = {
-	regions = { mundus_tamriel_hammerfell_sentinel mundus_tamriel_hammerfell_hegathe mundus_tamriel_hammerfell_taneth mundus_tamriel_hammerfell_sunforge }
+	duchies = { d_kelps d_nohotogrha d_bergama d_alikra d_anbar d_riverpoint }
 }
 
 ## CRAGLORN: Dragontail + Elinhir
 mundus_tamriel_hammerfell_dragontail = {
-	duchies = { d_dragonstar d_skyreach d_abdir d_hel_ra d_rahniza }
+	duchies = { d_dragonstar d_skyreach d_abdir d_lankara d_hel_ra }
 }
 mundus_tamriel_hammerfell_elinhir = {
-	duchies = { d_elinhir d_belkarth d_spellscar }
+	duchies = { d_elinhir d_belkarth d_spellscar d_illthag }
 }
 mundus_tamriel_hammerfell_craglorn = {
 	regions = { mundus_tamriel_hammerfell_dragontail mundus_tamriel_hammerfell_elinhir }
@@ -164,14 +181,15 @@ mundus_tamriel_hammerfell_craglorn = {
 
 ## ABECEE: Abecean + Hew's Bane + Gilane
 mundus_tamriel_hammerfell_abecean = {
-	duchies = { d_stros_mkai d_abecean }
+	duchies = { d_stros_mkai d_cespar d_herne }
 }
 mundus_tamriel_hammerfell_hew_bane = {
 	duchies = { d_hnas d_no_shira }
 }
-mundus_tamriel_hammerfell_gilane = { 
-	duchies = { d_gilane d_vulnim d_lainebon }
+mundus_tamriel_hammerfell_abecee = { 
+	regions = { mundus_tamriel_hammerfell_abecean mundus_tamriel_hammerfell_hew_bane mundus_tamriel_hammerfell_systres  }
 }
+
 ## SYSTRES: Systres
 mundus_tamriel_hammerfell_systres = {
 	duchies = { d_systres d_pankor }
@@ -179,45 +197,43 @@ mundus_tamriel_hammerfell_systres = {
 mundus_tamriel_hammerfell_systres_main_isles = {
 	duchies = { d_systres }
 }
-mundus_tamriel_hammerfell_abecee = { 
-	regions = { mundus_tamriel_hammerfell_abecean mundus_tamriel_hammerfell_hew_bane mundus_tamriel_hammerfell_gilane mundus_tamriel_hammerfell_systres  }
-}
 
-## Rihad
+## DEATHLANDS: Taneth + Rihad + Stonedale + Sunforge
+mundus_tamriel_hammerfell_deathlands = {
+	regions = { mundus_tamriel_hammerfell_rihad mundus_tamriel_hammerfell_taneth mundus_tamriel_hammerfell_stonedale mundus_tamriel_hammerfell_sunforge }
+}
 mundus_tamriel_hammerfell_rihad = {
-	duchies = { d_rihad d_aidhab d_stonemoor }
+	duchies = { d_rihad d_aidhab d_stonemoor d_north_hall }
 }
-
-## Taneth
 mundus_tamriel_hammerfell_taneth = {
-	duchies = { d_taneth d_roseguard d_danobia }
+	duchies = { d_taneth d_roseguard d_devisar d_jamul }
 }
-
-## Stonedale
 mundus_tamriel_hammerfell_stonedale = {
-	duchies = { d_stonedale d_hadaf d_vulkneu }
+	duchies = { d_stonedale d_vulkneu d_kororem }
 }
-
-## Sunforge
 mundus_tamriel_hammerfell_sunforge = {
-	duchies = { d_verkarth d_skaven d_sobatu d_riverpoint }
+	duchies = { d_verkarth d_skaven d_nenapesh d_abasa }
 }
 
-## Hallin
-mundus_tamriel_hammerfell_hallin = { 
-	duchies = { d_ojwambu d_fallen_wastes d_thorstad d_razak }
-}
 ## Bangkorai
 mundus_tamriel_hammerfell_bangkorai = {
-	duchies = { d_viridia d_bangkorai }
+	duchies = { d_viridia d_bangkorai d_morthom }
 }
+## Greater Bangkorai
 mundus_tamriel_border_greater_bangkorai = {
 	regions = { mundus_tamriel_hammerfell_bangkorai mundus_tamriel_high_rock_evermore }
 }
-
+## Greater Bangkorai expanded if if Reach Empire formed without West Reach Kingdom formed
+mundus_tamriel_border_greater_bangkorai_expanded = {
+	regions = { mundus_tamriel_hammerfell_bangkorai mundus_tamriel_high_rock_greater_evermore }
+}
 ## COMPLETE HAMMERFELL
 mundus_tamriel_hammerfell = {
-	regions = { mundus_tamriel_hammerfell_alikr_desert mundus_tamriel_hammerfell_craglorn mundus_tamriel_hammerfell_abecee mundus_tamriel_hammerfell_rihad mundus_tamriel_hammerfell_taneth mundus_tamriel_hammerfell_stonedale mundus_tamriel_hammerfell_sunforge mundus_tamriel_hammerfell_hallin mundus_tamriel_hammerfell_bangkorai }
+	regions = { 
+		mundus_tamriel_hammerfell_alikr_desert mundus_tamriel_hammerfell_craglorn mundus_tamriel_hammerfell_abecee
+		mundus_tamriel_hammerfell_deathlands mundus_tamriel_hammerfell_southern_iliac 
+		mundus_tamriel_hammerfell_crownlands mundus_tamriel_hammerfell_bangkorai 
+	}
 }
 
 ### CYRODIIL
@@ -234,7 +250,7 @@ mundus_tamriel_cyrodiil_gold_coast = {
 
 ## WEST WEALD: Skingrad
 mundus_tamriel_cyrodiil_skingrad = {
-	duchies = { d_skingrad d_woodenhand d_vlastarus d_nisin d_faregyl d_grayrock }
+	duchies = { d_skingrad d_woodenhand d_vlastarus d_delodiil d_faregyl d_grayrock }
 }
 mundus_tamriel_cyrodiil_west_weald = {
 	regions = { mundus_tamriel_cyrodiil_skingrad }
@@ -264,12 +280,22 @@ mundus_tamriel_cyrodiil_heartlands = {
 	regions = { mundus_tamriel_cyrodiil_imperial_isle mundus_tamriel_cyrodiil_rumare_banks }
 }
 
+# Area affected by the Bridges of Leyawiin
+mundus_tamriel_cyrodiil_rumare_niben = {
+	regions = { mundus_tamriel_cyrodiil_heartlands }
+	duchies = { d_cropsford d_caer_suvio d_grief d_redmane d_blankenmarsh d_nomore d_irony d_bravil }
+}
+
 ## JERALL MOUNTAINS: Bruma
 mundus_tamriel_cyrodiil_bruma = {
 	duchies = { d_cloudruler d_bruma d_bleaker_way d_underpall d_frostcrag d_red_ruby }
 }
 mundus_tamriel_cyrodiil_jerall_mountains = {
 	regions = { mundus_tamriel_cyrodiil_bruma }
+}
+
+mundus_tamriel_cyrodiil_colovia_bruma = {
+	regions = { mundus_tamriel_cyrodiil_bruma mundus_tamriel_cyrodiil_colovia }
 }
 
 ## NIBENAY BASIN: Cheydinhal
@@ -280,16 +306,34 @@ mundus_tamriel_cyrodiil_nibenay_basin = {
 	regions = { mundus_tamriel_cyrodiil_cheydinhal }
 }
 
-## NIBENESE LOWLANDS: Bravil + Leyawiin
+## NIBENESE LOWLANDS: Bravil + Leyawiin + Cis-Niben
 mundus_tamriel_cyrodiil_bravil = {
-	duchies = { d_bravil d_irony d_grief d_redwater d_cuptor d_sundercliff d_entius d_mir_corrup d_caer_suvio d_facian }
+	duchies = { d_bravil d_irony }
 }
 mundus_tamriel_cyrodiil_leyawiin = {
-	duchies = { d_leyawiin d_blackwood d_bulwark d_artemon d_redmane d_nomore d_blankenmarsh }
+	duchies = { d_leyawiin d_blackwood d_bulwark d_redmane d_nomore d_blankenmarsh }
 }
+
+## CIS-NIBEN
+# North of the Panther River
+mundus_tamriel_cyrodiil_cisniben_north = {
+	duchies = { d_grief d_redwater d_cuptor d_sundercliff d_entius d_mir_corrup d_caer_suvio d_facian }
+}
+
+# South of the Panther River
+mundus_tamriel_cyrodiil_cisniben_south = {
+	duchies = { d_artemon }
+}
+
+# Complete Cis-Niben
+mundus_tamriel_cyrodiil_cisniben = {
+	regions = { mundus_tamriel_cyrodiil_cisniben_north mundus_tamriel_cyrodiil_cisniben_south }
+}
+
 mundus_tamriel_cyrodiil_nibenese_lowlands = {
-	regions = { mundus_tamriel_cyrodiil_bravil mundus_tamriel_cyrodiil_leyawiin }
+	regions = { mundus_tamriel_cyrodiil_bravil mundus_tamriel_cyrodiil_leyawiin mundus_tamriel_cyrodiil_cisniben }
 }
+
 
 ## NIBENAY
 mundus_tamriel_cyrodiil_nibenay = {
@@ -307,7 +351,7 @@ mundus_tamriel_skyrim_hjaalmarch = {
 	duchies = { d_chillvale d_drajkmyr d_morthal d_snowhawk d_winstad }
 }
 mundus_tamriel_skyrim_haafingar = {
-	duchies = { d_darkfall d_dragon_bridge d_icereach d_northwatch d_ravenscar d_solitude d_volkihar }
+	duchies = { d_darkfall d_dragon_bridge d_northwatch d_ravenscar d_solitude d_volkihar }
 }
 mundus_tamriel_skyrim_west_ghost = {
 	regions = { mundus_tamriel_skyrim_haafingar mundus_tamriel_skyrim_hjaalmarch }
@@ -331,7 +375,7 @@ mundus_tamriel_skyrim_west_skyrim = {
 
 ## EAST GHOST: Winterhold + The Pale
 mundus_tamriel_skyrim_winterhold = {
-	duchies = { d_anthor d_bleakcoast d_fellhammer d_winterhold }
+	duchies = { d_anthor d_bleakcoast d_fellhammer d_winterhold d_eastern_isles }
 }
 mundus_tamriel_skyrim_the_pale = {
 	duchies = { d_dawnstar d_dunstad d_heljarchen d_yorgrim }
@@ -366,6 +410,11 @@ mundus_tamriel_skyrim_karth = {
 	duchies = { d_markarth d_skyhammer d_sungard d_hroldan d_druadach d_karthwasten d_karthald }
 }
 
+# Hrothgar for decision
+mundus_tamriel_skyrim_hrothgar = {
+	duchies = { d_ivarstead d_helgen d_nimalten }
+}
+
 ## COMPLETE SKYRIM
 mundus_tamriel_skyrim = {
 	regions = { mundus_tamriel_skyrim_west_skyrim mundus_tamriel_skyrim_east_skyrim mundus_tamriel_skyrim_solstheim mundus_tamriel_skyrim_karth }
@@ -382,7 +431,7 @@ mundus_tamriel_yokuda_yath = {
 	duchies = { d_yath d_samara }
 }
 mundus_tamriel_yokuda_ravan = {
-	duchies = { d_zanzar d_ravan }
+	duchies = { d_nalonga d_ravan }
 }
 mundus_tamriel_yokuda_southern = {
 	regions = { mundus_tamriel_yokuda_ravan }
@@ -414,7 +463,7 @@ mundus_tamriel_summerset_isles_dusk = {
 	duchies = { d_dusk d_silverwood d_varadan }
 }
 mundus_tamriel_summerset_isles_sunhold = {
-	duchies = { d_sunhold d_lillarnor d_nesteholt d_alaxonald }
+	duchies = { d_sunhold d_lillarnor d_nesteholt d_celwil }
 }
 mundus_tamriel_summerset_isles_alinor = {
 	duchies = { d_alinor d_seadril d_rellenthil d_glenview }
@@ -557,35 +606,32 @@ mundus_tamriel_morrowind_vvardenfell = {
 
 ## VELOTHI RANGE: Velothis + Stonefalls
 mundus_tamriel_morrowind_velothis = {
-	duchies = { d_blacklight d_kogomar d_darissa d_ganaris d_verarchen d_viraak d_marahk_bazhul d_silgrad }
-}
-mundus_tamriel_morrowind_stonefalls = {
-	duchies = { d_iliath d_kragenmoor d_ebonheart d_daen_seeth d_bal_foyen }
+	duchies = { d_blacklight d_cormaris d_selethis d_veranis d_roth_roryn d_marahk_bazhul d_silgrad d_zabamat }
 }
 mundus_tamriel_morrowind_velothi_range = {
-	regions = { mundus_tamriel_morrowind_velothis mundus_tamriel_morrowind_stonefalls }
+	regions = { mundus_tamriel_morrowind_velothis }
 }
 
 ## GREATER DESHAAN: Deshaan + Narsis
 mundus_tamriel_morrowind_deshaan = {
-	duchies = { d_mournhold d_taldeic d_eidolon d_old_keep d_astula d_meralag d_amber_forest }
+	duchies = { d_mournhold d_taldeic d_eidolon d_vhul d_nanaav d_meralag d_amber_forest d_daen_seeth d_bal_foyen }
 }
-mundus_tamriel_morrowind_narsis = {
-	duchies = { d_narsis d_coronati d_larsus d_blackgate }
+mundus_tamriel_morrowind_aanthirin = {
+	duchies = { d_narsis d_coronati d_roa_dyr d_shipal_shin d_kragenmoor d_ebonheart }
 }
 mundus_tamriel_morrowind_greater_deshaan = {
-	regions = { mundus_tamriel_morrowind_deshaan mundus_tamriel_morrowind_narsis }
+	regions = { mundus_tamriel_morrowind_deshaan mundus_tamriel_morrowind_aanthirin }
 }
 
 ## PADOMAY COAST: Necrom + Firewatch + Telvannis
 mundus_tamriel_morrowind_necrom = {
-	duchies = { d_necrom d_akamora d_romithren d_akafell }
+	duchies = { d_necrom d_draloris d_nethril d_aamul d_kemel d_gorne }
 }
 mundus_tamriel_morrowind_firewatch = {
-	duchies = { d_firewatch d_lolthanis d_oren d_helnim d_mothrivra d_draloris d_bosara }
+	duchies = { d_dagon_urul d_sunad_mora d_boethiah_spine d_molag_ruhn d_mothrivra d_muthada d_scath_anud }
 }
 mundus_tamriel_morrowind_telvannis = {
-	duchies = { d_telvannis d_uradas d_firuth }
+	duchies = { d_telvannis d_uradas d_banor }
 }
 mundus_tamriel_morrowind_padomay_coast = {
 	regions = { mundus_tamriel_morrowind_necrom mundus_tamriel_morrowind_firewatch mundus_tamriel_morrowind_telvannis }
@@ -593,7 +639,7 @@ mundus_tamriel_morrowind_padomay_coast = {
 
 ## SOUTHERN MARSHES: Tearmarsh
 mundus_tamriel_morrowind_tearmarsh = {
-	duchies = { d_tear d_karag d_rithendis d_felyon d_yengrith d_silnion d_bashipal d_hairab }
+	duchies = { d_tear d_karag d_rithendis d_felyon d_yengrith d_silnion d_bashipal d_horak }
 }
 mundus_tamriel_morrowind_southern_marshes = {
 	regions = { mundus_tamriel_morrowind_tearmarsh }
@@ -661,7 +707,7 @@ mundus_tamriel_black_marsh_barsaebica = {
 
 #Nordic Empire for decision
 mundus_tamriel_nordic_empire = {
-	regions = { mundus_tamriel_skyrim mundus_tamriel_hammerfell_dragontail mundus_tamriel_morrowind_velothis mundus_tamriel_high_rock_jehanna mundus_tamriel_high_rock_evermore mundus_tamriel_cyrodiil_bruma }
+	regions = { mundus_tamriel_skyrim mundus_tamriel_hammerfell_dragontail mundus_tamriel_morrowind_velothis mundus_tamriel_reach_west_reach mundus_tamriel_cyrodiil_bruma }
 }
 
 ## COMPLETE BLACK MARSH:
@@ -672,6 +718,10 @@ mundus_tamriel_black_marsh = {
 ### TAMRIEL
 mundus_tamriel = { 
 	regions = { mundus_tamriel_high_rock mundus_tamriel_hammerfell mundus_tamriel_cyrodiil mundus_tamriel_skyrim mundus_tamriel_yokuda mundus_tamriel_summerset_isles mundus_tamriel_valenwood mundus_tamriel_elsweyr mundus_tamriel_morrowind mundus_tamriel_black_marsh }
+}
+
+mundus_tamriel_no_yokuda = { 
+	regions = { mundus_tamriel_high_rock mundus_tamriel_hammerfell mundus_tamriel_cyrodiil mundus_tamriel_skyrim  mundus_tamriel_summerset_isles mundus_tamriel_valenwood mundus_tamriel_elsweyr mundus_tamriel_morrowind mundus_tamriel_black_marsh }
 }
 
 ###########################################################################
@@ -895,7 +945,7 @@ material_metal_bulat = {
 }
 
 material_hsb_camel_bone = {
-	regions = { mundus_tamriel_hammerfell_alikr_desert mundus_tamriel_hammerfell_hew_bane mundus_tamriel_hammerfell_gilane mundus_tamriel_hammerfell_rihad mundus_tamriel_hammerfell_taneth mundus_tamriel_hammerfell_stonedale mundus_tamriel_hammerfell_sunforge  mundus_tamriel_yokuda mundus_tamriel_elsweyr_anequina }
+	regions = { mundus_tamriel_hammerfell_alikr_desert mundus_tamriel_hammerfell_hew_bane mundus_tamriel_hammerfell_gilane mundus_tamriel_hammerfell_rihad mundus_tamriel_hammerfell_stonedale  mundus_tamriel_yokuda }
 }
 
 material_hsb_deer_antler = {
@@ -919,16 +969,11 @@ material_hsb_mother_of_pearl = {
 }
 
 material_hsb_tortoiseshell = {
-	regions = { }
+	regions = { mundus_tamriel_cyrodiil mundus_tamriel_hammerfell } #IRL - south Italy, Greece, Japan, China
 }
 
 material_hsb_seashell = {
 	regions = { mundus_islands }
-}
-# EK Addition
-# ck3-tiger: @AnarchAz you need to know where you want to put the mithril material. while you're at it please define regions for all the other materials as well
-material_metal_mithril = {
-	regions = { }
 }
 
 material_prefer_robe = {
@@ -948,11 +993,12 @@ material_prefer_robe = {
 ## WEST REACH: Wrothgar + Evermore
 	mundus_tamriel_reach_west_reach = {
 		regions = { mundus_tamriel_high_rock_fharun mundus_tamriel_high_rock_evermore mundus_tamriel_high_rock_jehanna }
+		duchies = { d_gavaudon }
 	}
 
 ## SOUTHERN REACH: Dragontail
 	mundus_tamriel_reach_south_reach = {
-		regions = { mundus_tamriel_hammerfell_dragontail }
+		regions = { mundus_tamriel_hammerfell_dragontail mundus_tamriel_hammerfell_bangkorai}
 	}
 
 ## EAST REACH: Markarth + North Reach
@@ -1004,7 +1050,7 @@ material_prefer_robe = {
  ### Abecean Shoreline (used for fp2 casus belli)
  #checks for is_coastal_county in the decision
  	dlc_fp2_mediterranean_shoreline = {
-		duchies = { d_rihad d_roseguard d_taneth d_danobia d_lainebon d_gilane d_hegathe d_abibon d_hnas d_no_shira d_stros_mkai d_abecean d_systres d_pankor d_stirk d_crowhaven d_anvil d_king_haven d_corgrad d_graddun d_lillandril d_rilis d_firsthold d_thalhold d_velyn }
+		duchies = { d_rihad d_roseguard d_taneth d_devisar d_lainebon d_gilane d_hegathe d_abibon d_hnas d_no_shira d_stros_mkai d_cespar d_systres d_pankor d_stirk d_crowhaven d_anvil d_king_haven d_corgrad d_graddun d_lillandril d_rilis d_firsthold d_thalhold d_velyn }
 	}
 
 ###########################################################################
@@ -1027,23 +1073,28 @@ material_prefer_robe = {
 		regions = { mundus_tamriel_high_rock_wrothgar mundus_tamriel_high_rock_fharun mundus_tamriel_high_rock_jehanna }
 	}
 	custom_nativity_bangkorai = {
-		regions = { mundus_tamriel_high_rock_evermore mundus_tamriel_hammerfell_bangkorai mundus_tamriel_hammerfell_hallin }
+		regions = { mundus_tamriel_high_rock_evermore mundus_tamriel_hammerfell_bangkorai }
 	}
 ## Hammerfell
 	custom_nativity_craglorn = {
 		regions = { mundus_tamriel_hammerfell_craglorn }
 	}
 	custom_nativity_alikr = {
-		regions = { mundus_tamriel_hammerfell_hegathe mundus_tamriel_hammerfell_sentinel }
+		regions = { mundus_tamriel_hammerfell_alikr_desert }
+		duchies = { d_verkarth }
 	}
-	custom_nativity_brena = {
-		regions = { mundus_tamriel_hammerfell_rihad mundus_tamriel_hammerfell_stonedale }
+	custom_nativity_crownlands = {
+		regions = { mundus_tamriel_hammerfell_crownlands }
 	}
-	custom_nativity_sunforge = {
-		regions = { mundus_tamriel_hammerfell_sunforge mundus_tamriel_hammerfell_taneth }
+	custom_nativity_southern_iliac = {
+		regions = { mundus_tamriel_hammerfell_southern_iliac }
+	}
+	custom_nativity_deathlands = { #Taneth + Rihad + Stonedale + parts of Sunforge
+		regions = { mundus_tamriel_hammerfell_taneth mundus_tamriel_hammerfell_rihad mundus_tamriel_hammerfell_stonedale }
+		duchies = { d_skaven d_abasa d_nenapesh }
 	}
 	custom_nativity_abecee = {
-		regions = { mundus_tamriel_hammerfell_abecean mundus_tamriel_hammerfell_hew_bane mundus_tamriel_hammerfell_gilane mundus_tamriel_hammerfell_systres }
+		regions = { mundus_tamriel_hammerfell_abecee }
 	}
 ## Cyrodiil
 	custom_nativity_heartlands = {
@@ -1068,7 +1119,7 @@ material_prefer_robe = {
 		regions = { mundus_tamriel_cyrodiil_cheydinhal }
 	}
 	custom_nativity_nibenese_lowlands = {
-		regions = { mundus_tamriel_cyrodiil_bravil mundus_tamriel_cyrodiil_leyawiin }
+		regions = { mundus_tamriel_cyrodiil_bravil mundus_tamriel_cyrodiil_leyawiin mundus_tamriel_cyrodiil_cisniben }
 	}
 ## Skyrim
 	custom_nativity_karth = {	
@@ -1125,13 +1176,16 @@ material_prefer_robe = {
 		regions = { mundus_tamriel_morrowind_vvardenfell }
 	}
 	custom_nativity_velothi_range = {
-		regions = { mundus_tamriel_morrowind_velothi_range }
+		regions = { mundus_tamriel_morrowind_velothis }
+	}
+	custom_nativity_thir = {
+		regions = { mundus_tamriel_morrowind_aanthirin }
 	}
 	custom_nativity_greater_deshaan = {
-		regions = { mundus_tamriel_morrowind_greater_deshaan }
+		regions = { mundus_tamriel_morrowind_deshaan mundus_tamriel_morrowind_necrom }
 	}
 	custom_nativity_padomay_coast = {
-		regions = { mundus_tamriel_morrowind_padomay_coast }
+		regions = { mundus_tamriel_morrowind_firewatch mundus_tamriel_morrowind_telvannis }
 	}
 	custom_nativity_southern_marshes = {
 		regions = { mundus_tamriel_morrowind_southern_marshes }
@@ -1161,7 +1215,7 @@ graphical_western = {
 	graphical = yes
 	color = { 255 0 0 }
 	# all of cyrodiil in here except anvil, i'm sorry for this mess, but my lord and savior error.log tells me to
-	regions = { mundus_ghost_sea_roscrea mundus_ghost_sea_olenveld mundus_tamriel_skyrim mundus_tamriel_cyrodiil_jerall_mountains mundus_tamriel_cyrodiil_west_weald mundus_tamriel_cyrodiil_colovian_highlands mundus_tamriel_cyrodiil_kvatch }
+	regions = { mundus_ghost_sea_roscrea mundus_ghost_sea_olenveld mundus_tamriel_high_rock mundus_tamriel_skyrim mundus_tamriel_cyrodiil_jerall_mountains mundus_tamriel_cyrodiil_west_weald mundus_tamriel_cyrodiil_colovian_highlands mundus_tamriel_cyrodiil_kvatch }
 }
 
 graphical_mena = {
@@ -1188,6 +1242,13 @@ graphical_steppe = {
 	regions = { }
 }
 
+graphical_east_asia = {
+	graphical = yes
+	color = { 155 255 155 }
+	regions = {
+	} 
+}
+
 ### EK Graphical Regions
 # Elsweyr Architecture
 graphical_sea = {
@@ -1208,9 +1269,11 @@ graphical_iberia = {
 ##############################
 
 ### EK TODO: Use that
+
+### EK TODO: Use that
 # Atmora? The rest of the Nordic world kinda threw away its sea-faring tradition
 world_innovation_longboats = {
-	regions = { 
+	regions = {
 		mundus_tamriel_skyrim_west_ghost mundus_tamriel_skyrim_east_ghost mundus_tamriel_skyrim_solstheim mundus_ghost_sea_roscrea mundus_ghost_sea_olenveld
 	}
 }
@@ -1227,7 +1290,7 @@ world_innovation_mammoths = {
 
 # Hammerfell (save for Ojwambu and Craglorn), Yokuda
 world_innovation_camels = {
-	regions = { mundus_tamriel_hammerfell_alikr_desert mundus_tamriel_hammerfell_hew_bane mundus_tamriel_hammerfell_gilane mundus_tamriel_hammerfell_rihad mundus_tamriel_hammerfell_taneth mundus_tamriel_hammerfell_stonedale mundus_tamriel_hammerfell_sunforge  mundus_tamriel_yokuda_northern }
+	regions = { mundus_tamriel_hammerfell_alikr_desert mundus_tamriel_hammerfell_hew_bane mundus_tamriel_hammerfell_gilane mundus_tamriel_hammerfell_rihad mundus_tamriel_hammerfell_stonedale  mundus_tamriel_yokuda_northern }
 }
 
 # Iliac Bay and Abecean Sea
@@ -1252,7 +1315,7 @@ mundus_islands = {
 		# e_yokuda
 		d_kanesh
 		# e_hammerfell
-		d_abecean
+		d_cespar
 		d_stros_mkai
 		# e_high_rock
 		d_betony
@@ -1272,9 +1335,6 @@ mundus_islands = {
 		# e_black_marsh
 		d_topal
 		d_padomeic
-		# e_ghost_sea
-		d_olenveld
-		d_hvalcrea
 	}
 	
 	counties = {
@@ -1316,12 +1376,6 @@ mundus_islands = {
 		# e_black_marsh
 		c_norg_tzel
 		c_steeping_stones
-		# e_ghost_sea
-		c_vignars_isle
-		c_isle_of_roots
-		c_the_storm_rocks
-		c_gunders_fist
-		c_the_cold_divines
 	}
 }
 
@@ -1330,7 +1384,6 @@ dwemer_ruins_region = {
 		mundus_tamriel_morrowind
 		mundus_tamriel_skyrim
 		mundus_tamriel_hammerfell
-		mundus_tamriel_high_rock
 	}
 }
 
@@ -1364,8 +1417,8 @@ material_east = {
 }
 
 ek_nedic_kingdom_region = {
-	regions = { mundus_tamriel_hammerfell_sunforge mundus_tamriel_hammerfell_stonedale mundus_tamriel_border_greater_bangkorai 
-	mundus_tamriel_hammerfell_craglorn mundus_tamriel_skyrim_falkreath mundus_tamriel_hammerfell_hallin }
+	regions = { mundus_tamriel_hammerfell_sunforge mundus_tamriel_hammerfell_stonedale  
+	mundus_tamriel_hammerfell_craglorn mundus_tamriel_skyrim_falkreath mundus_tamriel_hammerfell_rihad mundus_tamriel_cyrodiil_anvil }
 }
 
 ##############################
@@ -1382,7 +1435,7 @@ world_horse_buildings_in_hills_and_mountains = {
 		# High Rock
 		mundus_tamriel_high_rock_glenumbra mundus_tamriel_high_rock_stormhaven mundus_tamriel_high_rock_evermore
 		# Hammerfell
-		mundus_tamriel_hammerfell_alikr_desert mundus_tamriel_hammerfell_gilane mundus_tamriel_hammerfell_sunforge 
+		mundus_tamriel_hammerfell_alikr_desert mundus_tamriel_hammerfell_gilane 
 		# Cyrodiil
 		mundus_tamriel_cyrodiil_west_weald mundus_tamriel_cyrodiil_heartlands mundus_tamriel_cyrodiil_nibenay_basin
 		# Skyrim
@@ -1406,153 +1459,9 @@ world_horse_buildings_in_hills_and_mountains = {
 # Climate Regions - Tie some commander traits to there
 ###########################################################################
 mundus_climate_winter = {
-	regions = { mundus_ghost_sea_olenveld mundus_ghost_sea_roscrea mundus_tamriel_high_rock_rivenspire mundus_tamriel_high_rock_greater_wrothgar mundus_tamriel_cyrodiil_bruma }
+	regions = { mundus_ghost_sea_olenveld mundus_ghost_sea_roscrea mundus_tamriel_skyrim mundus_tamriel_high_rock_rivenspire mundus_tamriel_high_rock_greater_wrothgar mundus_tamriel_cyrodiil_bruma }
 	duchies = { d_blacklight d_sheogorad }
 }
-
-
-# EK EDIT Error.log screamed at me for not having these regions in here, so i set up dummy regions using c_balfiera
-#####################
-# The Northern Lords Regions
-#####################
-
-dlc_fp1_region_core_north_sea = {
-	counties = { c_balfiera }
-}
-dlc_fp1_region_mysterious_stranger_locations = {
-	counties = { c_balfiera }
-}
-dlc_fp1_region_western_adventure_targets_iceland_isles = {
-	counties = { c_balfiera }
-}
-dlc_fp1_region_western_adventure_targets_scotland_isles = {
-	counties = { c_balfiera }
-}
-dlc_fp1_region_western_adventure_targets_ireland = {
-	counties = { c_balfiera }
-}
-dlc_fp1_region_western_adventure_targets_northern_england = {
-	counties = { c_balfiera }
-}
-dlc_fp1_region_western_adventure_targets_northern_france_brittany = {
-	counties = { c_balfiera }
-}
-dlc_fp1_region_western_adventure_targets_pomerania_prussia = {
-	counties = { c_balfiera }
-}
-dlc_fp1_region_western_adventure_targets_frisia = {
-	counties = { c_balfiera }
-}
-dlc_fp1_region_eastern_adventure_targets_novgorod = {
-	counties = { c_balfiera }
-}
-dlc_fp1_region_eastern_adventure_targets_white_rus = {
-	counties = { c_balfiera }
-}
-dlc_fp1_region_eastern_adventure_targets_vladimir = {
-	counties = { c_balfiera }
-}
-dlc_fp1_region_eastern_adventure_targets_ruthenia = {
-	counties = { c_balfiera }
-}
-dlc_fp1_region_eastern_adventure_targets_estonia = {
-	counties = { c_balfiera }
-}
-dlc_fp1_region_eastern_adventure_targets_zaporizhia = {
-	counties = { c_balfiera }
-}
-dlc_fp1_region_western_scandinavia_pool = {
-	counties = { c_balfiera }
-}
-dlc_fp1_region_eastern_scandinavia_pool = {
-	counties = { c_balfiera }
-}
-dlc_fp1_region_russian_steppe = {
-	counties = { c_balfiera }
-}
-dlc_fp1_region_core_mainland_scandinavia = {
-	counties = { c_balfiera }
-}
-dlc_fp1_region_non_scandinavian_southern_baltic = {
-	counties = { c_balfiera }
-}
-dlc_fp1_region_colonial_eastern_europe = {
-	counties = { c_balfiera }
-}
-dlc_fp1_achievement_far_from_home = {
-	counties = { c_balfiera }
-}
-dlc_fp1_achievement_king_of_all_the_isles = {
-	counties = { c_balfiera }
-}
-dlc_fp1_achievement_vladimirs_second_choice = {
-	counties = { c_balfiera }
-}
-### END TNL Regions
-
-#####################
-# Achievements - 1.4
-#####################
-
-dlc_ep1_achievement_rise_of_the_ghurids = {
-	counties = { c_balfiera }
-}
-### END 1.4 Achievements Regions
-
-################
-# RoCo Regions #
-################
-
-dlc_ep1_region_south_east_europe = {
-	counties = { c_balfiera }
-}
-dlc_ep1_hansa_trade_region = {
-	counties = { c_balfiera }
-}
-dlc_ep1_dutch_trade_region = {
-	counties = { c_balfiera }
-}
-dlc_ep1_russia_trade_region = {
-	counties = { c_balfiera }
-}
-dlc_ep1_varangian_trade_region = {
-	counties = { c_balfiera }
-}
-dlc_ep1_mongol_trade_region = { # Silk Road
-	counties = { c_balfiera }
-}
-dlc_ep1_iberia_trade_region = {
-	counties = { c_balfiera }
-}
-dlc_ep1_italian_trade_region = {
-	counties = { c_balfiera }
-}
-dlc_ep1_levant_trade_region = {
-	counties = { c_balfiera }
-}
-dlc_ep1_arab_trade_region = {
-	counties = { c_balfiera }
-}
-dlc_ep1_persian_trade_region = { # Silk Road
-	counties = { c_balfiera }
-}
-dlc_ep1_north_africa_trade_region = {
-	counties = { c_balfiera }
-}
-dlc_ep1_east_africa_trade_region = {
-	counties = { c_balfiera }
-}
-dlc_ep1_west_africa_trade_region = {
-	counties = { c_balfiera }
-}
-dlc_ep1_indian_trade_region = { # Silk Road
-	counties = { c_balfiera }
-}
-dlc_ep1_southwest_silk_road_trade_region = { # Silk Road
-	counties = { c_balfiera }
-}
-
-### END RC Regions
 
 ### SEAZONES ###
 
@@ -1607,13 +1516,6 @@ sea_sea_of_ghosts = {
 	sea_of_ghosts_roscea
 	}
 }
-
-sea_of_ghosts_roscea = {
-	provinces = {
-		5537 5538 5539 5540 5541 5542 5543 5544 5545 5546 5547 5548 5549 5550 5551 5621 5622 5623
-	}
-}
-
 # Northern Coast of Morrowind
 sea_of_ghosts_morrowind = {
 	provinces = {
@@ -1646,6 +1548,13 @@ sea_of_ghosts_high_rock = {
 sea_of_ghosts_waters = {
 	provinces = {
 		5293 5294 5295 5296
+	}
+}
+
+# Sea of Ghosts - Roscrea
+sea_of_ghosts_roscea = {
+	provinces = {
+		5537 5538 5539 5540 5541 5542 5543 5544 5545 5546 5547 5548 5549 5550 5551 5802 5803 5804
 	}
 }
 
@@ -1796,7 +1705,7 @@ hunt_animal_deer_region = {
 		# parts of Craglorn
 		d_dragonstar d_skyreach d_abdir d_spellscar d_elinhir
 		# tiny bits of morrowind
-		d_blacklight d_kogomar
+		d_blacklight d_cormaris
 	}
 }
 
@@ -1952,7 +1861,7 @@ hunt_animal_elk_region = {
 	}
 	duchies = {
 		# tiny bits of morrowind
-		d_blacklight d_kogomar
+		d_blacklight d_cormaris
 	}
 }
 
@@ -1974,14 +1883,20 @@ ek_hunt_animal_lynx_region = {
 	}
 }
 
+hunt_animal_saiga_region = {
+	regions = {
+		# northern parts of high rock
+		mundus_tamriel_high_rock_rivenspire
+		mundus_tamriel_high_rock_greater_wrothgar
+		#Western Skyrim
+		mundus_tamriel_skyrim_west_skyrim
+	}
+}
+
 # Chiefly the Celtic Rim.
 # EK Edit: Tamriel has no Celtic Rim, so we're taking areas that have some nedic influence
 board_game_fidchell_region = {
 	regions = {
-		# Systres - Galen
-		mundus_tamriel_hammerfell_systres
-		# Glenumbra - Wyrd
-		mundus_tamriel_high_rock_glenumbra
 		# Bangkorai - Wyrd + Forgotten Gods
 		mundus_tamriel_hammerfell_bangkorai
 		# Any Reach Area
@@ -1998,9 +1913,6 @@ ek_graphical_europe_like = {
 		mundus_tamriel_high_rock
 		# Skyrim
 		mundus_tamriel_skyrim
-		# Roscrea
-		mundus_ghost_sea_roscrea
-		mundus_ghost_sea_olenveld
 		# Cyrodiil
 		mundus_tamriel_cyrodiil
 		# Summerset Isles
@@ -2040,25 +1952,27 @@ ek_graphical_skyrim_like = {
 	duchies = { d_eastwatch d_sancre_tor d_dragonstar d_skyreach }
 }
 
+# Empty right now, but setting this up for vanilla replacement purposes in case we ever use it
+ek_graphical_asia_southeast_like = {
+	regions = {}
+}
+
+# Empty right now, but setting this up for vanilla replacement purposes in case we ever use it
+ek_graphical_steppe_like = {
+	regions = {}
+}
+
+# I really doubt we'll use this, but maybe?
+ek_graphical_tibet_like = {
+	regions = {}
+}
+
 #Mostly for the exotic location legend, can be used for other things too
 ek_near_thras = {
 	duchies = { d_yath d_ravan d_systres }
 }
 
 # used in ek_epidemic_values.txt, these are historical counties we estimated the knahaten may remained for longer. concentrated around Orcrest
-ek_elsweyr_knahaten_zone_orcrest = {
-	counties = { c_orcrest c_scar_edge c_weeping_scar }
-}
-ek_elsweyr_knahaten_zone_orcrest_circle = {
-	counties = { c_ashen_scar c_chasemoor c_the_tangle c_badland c_greenval c_meirvale c_the_prowl}
-}
-# senchal, was apparently hit nearly as hard as Orcrest
-ek_elsweyr_knahaten_zone_senchal = {
-	counties = { c_senchal }
-}
-ek_elsweyr_knahaten_zone_senchal_circle = {
-	counties = { c_riatahrashi c_mjraan_bo c_nrajiik c_south_guard }
-}
 ek_valenwood_knahaten_coastal_turbo = {
 	counties = { c_haven c_southpoint c_gildervale c_hawthorn c_daresen c_pelda_tarn c_greenheart c_southisle c_coral c_longhaven c_woodhearth c_seaside c_velyn }
 }
@@ -2074,6 +1988,92 @@ ek_knahaten_outbreak_zone = {
 }
 
 ek_knahaten_systres_springboard = {
-	duchies = { d_abecean d_stros_mkai }
+	duchies = { d_cespar d_stros_mkai }
 	counties = { c_daggerfall c_wayrest c_hegathe c_anvil c_firsthold c_lillandril }
+}
+
+
+ek_region_crownlands = {
+	regions = { mundus_tamriel_hammerfell_crownlands }
+	duchies = { d_stros_mkai d_cespar d_herne }
+}
+
+ek_region_northern_crownlands = {
+	duchies = { d_skaven d_belkarth d_elinhir }
+}
+
+ek_region_southern_forebears = {
+	regions = { mundus_tamriel_hammerfell_rihad mundus_tamriel_hammerfell_taneth mundus_tamriel_hammerfell_stonedale }
+	duchies = { d_abasa d_nenapesh }
+}
+
+ek_region_northern_forebears = {
+	regions = { mundus_tamriel_hammerfell_sentinel mundus_tamriel_hammerfell_hallin mundus_tamriel_hammerfell_dragontail }
+}
+
+ek_mundus_tamriel_spice_region = {
+	regions = { mundus_tamriel_elsweyr_senchal mundus_tamriel_elsweyr_torval mundus_tamriel_yokuda_ravan mundus_tamriel_hammerfell_systres }
+	#Soulrest - Pellitine - southern Valenwood coast - Systres - Nalonga
+	duchies = { d_soulrest d_tenmar d_pridehome d_haven d_southpoint d_greenheart d_southisles d_woodhearth }
+}
+
+ek_region_julan_shar = {
+	duchies = { d_blacklight d_cormaris d_selethis }
+}
+ek_region_roth_roryn = {
+	duchies = { d_roth_roryn d_veranis d_zabamat d_marahk_bazhul }
+}
+ek_region_coronati = {
+	duchies = { d_coronati d_kragenmoor }
+}
+ek_region_narsis = {
+	duchies = { d_narsis d_shipal_shin }
+}
+ek_region_aanthirin = {
+	duchies = { d_ebonheart d_roa_dyr }
+}
+ek_region_bal_foyen = {
+	duchies = { d_bal_foyen d_daen_seeth }
+	counties = { c_sassinabat c_marog c_ildrim }
+}
+ek_region_nanaav = {
+	duchies = { d_nanaav d_vhul d_eidolon }
+}
+ek_region_orethan = {
+	duchies = { d_amber_forest d_meralag d_nethril }
+}
+ek_region_aamul = {
+	duchies = { d_draloris d_aamul }
+}
+ek_region_necrom = {
+	duchies = { d_necrom d_gorne }
+}
+ek_region_mournhold = {
+	duchies = { d_taldeic }
+	counties = { c_mournhold c_deepcrag c_taleon }
+}
+ek_region_dagon_urul = {
+	duchies = { d_dagon_urul d_boethiah_spine }
+}
+ek_region_molag_ruhn = {
+	duchies = { d_molag_ruhn d_muthada d_scath_anud }
+}
+ek_region_sunad_mora = {
+	duchies = { d_sunad_mora d_mothrivra }
+}
+ek_region_bashipal = {
+	duchies = { d_silnion d_horak }
+	counties = { c_bashipal c_ordurin c_cantemarch }
+}
+ek_region_yengrith = {
+	duchies = { d_yengrith d_felyon d_rithendis }
+}
+ek_region_tear = {
+	duchies = { d_tear d_karag }
+}
+
+#EK DISABLED
+dlc_tgp_grand_canal_region = {
+	regions = {
+	}
 }

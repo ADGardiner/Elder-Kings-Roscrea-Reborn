@@ -1,5 +1,5 @@
 ﻿# c_the_sisters
-5552 = {
+5733 = {
 	culture = roscrean
 	religion = totemism
 
@@ -7,167 +7,167 @@
 }
 
 # c_north_hvalcrea
-5553 = {
+5734 = {
 	culture = roscrean
 	religion = totemism
 
 	holding = tribal_holding
 }
 
-5554 = {
+5735 = {
 	holding = none
 }
 
 # c_lesser_hvalcrea
-5556 = {
+5737 = {
 	culture = roscrean
 	religion = totemism
 
 	holding = castle_holding
 }
 
-5557 = {
+5738 = {
 	holding = city_holding
 }
 
-5558 = {
+5739 = {
 	holding = none
 }
 
 # c_greater_hvalcrea
-5561 = {
+5742 = {
 	culture = roscrean
 	religion = totemism
 
 	holding = tribal_holding
 }
 
-5562 = {
+5743 = {
 	holding = none
 }
 
-5563 = {
+5744 = {
 	holding = none
 }
 
-5564 = {
+5745 = {
 	holding = none
 }
 
 # c_vignars_isle
-5566 = {
+5747 = {
 	culture = roscrean
 	religion = totemism
 
 	holding = tribal_holding
 }
 
-5567 = {
+5748 = {
 	holding = none
 }
 
-5568 = {
+5749 = {
 	holding = none
 }
 
-5569 = {
+5750 = {
 	holding = none
 }
 
 # c_gunders_fist
-5572 = {
+5753 = {
 	culture = roscrean
 	religion = totemism
 
 	holding = castle_holding
 }
 
-5571 = {
+5752 = {
 	holding = city_holding
 }
 
-5570 = {
+5751 = {
 	holding = none
 }
 
 # c_the_cold_divines
-5573 = {
+5754 = {
 	culture = roscrean
 	religion = totemism
 
 	holding = castle_holding
 }
 
-5574 = {
+5755 = {
 	holding = none
 }
 
 # c_isle_of_roots
-5576 = {
+5757 = {
 	culture = roscrean
 	religion = totemism
 	holding = castle_holding
 }
 
 # c_the_storm_rocks
-5577 = {
+5758 = {
 	culture = roscrean
 	religion = totemism
 	holding = tribal_holding
 }
 
 # c_daavrenbyr
-5578 = {
+5759 = {
 	culture = roscrean
 	religion = totemism
 
 	holding = castle_holding
 }
 
-5579 = {
+5760 = {
 	holding = none
 }
 
-5580 = {
+5761 = {
 	holding = none
 }
 
 # c_bjargo
-5582 = {
+5763 = {
 	culture = roscrean
 	religion = totemism
 
 	holding = castle_holding
 }
 
-5581 = {
+5762 = {
 	holding = none
 }
 
 # c_caher
-5583 = {
+5764 = {
 	culture = roscrean
 	religion = totemism
 	holding = castle_holding
 }
 
-5586 = {
+5767 = {
 	holding = none
 }
 
 # c_esbert_forest
-5585 = {
+5766 = {
 	culture = roscrean
 	religion = hircine_cult
 	holding = tribal_holding
 }
 
-5584 = {
+5765 = {
 	holding = none
 }
 
 # c_dovlagr
-5590 = {
+5771 = {
 	culture = roscrean
 	religion = dragon_cult
 	
@@ -176,124 +176,124 @@
 	special_building = dovlagr_temple_01
 }
 
-5591 = {
+5772 = {
 	holding = none
 }
 
 # c_werralcrea
-5594 = {
+5775 = {
 	culture = roscrean
 	religion = totemism
 
 	holding = castle_holding
 }
 
-5595 = {
+5776 = {
 	holding = none
 }
 
-5596 = {
+5777 = {
 	holding = none
 }
 
 # c_konaholl
-5597 = {
+5778 = {
 	culture = roscrean
 	religion = totemism
 
 	holding = castle_holding
 }
 
-5598 = {
+5779 = {
 	holding = none
 }
 
 # c_rosbyrthuul
-5599 = {
+5780 = {
 	culture = roscrean
 	religion = totemism
 
 	holding = castle_holding
 }
 
-5608 = {
+5789 = {
 	holding = none
 }
 
-5609 = {
+5790 = {
 	holding = none
 }
 
-5610 = {
+5791 = {
 	holding = none
 }
 
-5620 = {
+5801 = {
 	holding = city_holding
 }
 
 # c_vinthuurkov
-5600 = {
+5781 = {
 	culture = roscrean
 	religion = totemism
 
 	holding = castle_holding
 }
 
-5604 = {
+5785 = {
 	holding = none
 }
 
-5605 = {
+5786 = {
 	holding = none
 }
 
 # c_fashokaaz
-5601 = {
+5782 = {
 	culture = roscrean
 	religion = totemism
 
 	holding = castle_holding
 }
 
-5606 = {
+5787 = {
 	holding = none
 }
 
-5607 = {
+5788 = {
 	holding = none
 }
 
 # c_hare_forest
-5602 = {
+5783 = {
 	culture = roscrean
 	religion = woodland_man
 
 	holding = tribal_holding
 }
 
-5603 = {
+5784 = {
 	holding = none
 }
 
 # c_raheen
-5611 = {
+5792 = {
 	culture = roscrean
 	religion = totemism
 
 	holding = castle_holding
 }
 
-5616 = {
+5797 = {
 	holding = none
 }
 
-5617 = {
+5798 = {
 	holding = none
 }
 
 # c_miitvaal
-5612 = {
+5793 = {
 	culture = roscrean
 	religion = totemism
 
@@ -301,28 +301,28 @@
 	special_building_slot = mithril_mine_01
 }
 
-5614 = {
+5795 = {
 	holding = none
 }
 
-5615 = {
+5796 = {
 	holding = none
 }
 
 # c_ice_flows
-5613 = {
+5794 = {
 	culture = roscrean
 	religion = totemism
 
 	holding = tribal_holding
 }
 
-5618 = {
+5799 = {
 	holding = none
 }
 
 # c_olenveld
-5624 = {
+5805 = {
 	culture = eastmarcher
 	religion = totemism
 

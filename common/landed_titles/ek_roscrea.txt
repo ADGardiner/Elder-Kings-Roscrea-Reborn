@@ -19,19 +19,19 @@
 				color = { 104 56 180 }
 
 				b_hvalbyr = {
-					province = 5556
+					province = 5737
 
 					color = { 127 100 192 }
 				}
 
 				b_hvalbyr_village = {
-					province = 5557
+					province = 5738
 
 					color = { 122 121 172 }
 				}
 
 				b_vinthuur = {
-					province = 5558
+					province = 5739
 
 					color = { 122 151 200 }
 				}
@@ -42,22 +42,22 @@
 				color = { 103 95 218 }
 
 				b_cape_of_hvalcrea = {
-					province = 5561
+					province = 5742
 					color = { 95 99 160 }
 				}
 
 				b_hvals_lookout = {
-					province = 5562
+					province = 5743
 					color = { 62 150 180 }
 				}
 
 				b_north_hvals_saddle = {
-					province = 5563
+					province = 5744
 					color = { 52 56 200 }
 				}
 
 				b_south_hvals_saddle = {
-					province = 5564
+					province = 5745
 					color = { 120 87 240 }
 				}
 			}
@@ -66,7 +66,7 @@
 				color = { 68 66 209 }
 			
 				b_the_sisters = {
-					province = 5552
+					province = 5733
 			
 					color = { 126 99 191 }
 			
@@ -78,13 +78,13 @@
 				color = { 74 73 149 }
 			
 				b_toem = {
-					province = 5553
+					province = 5734
 			
 					color = { 121 120 171 }
 				}
 			
 				b_drom = {
-					province = 5554
+					province = 5735
 			
 					color = { 121 150 201 }
 			
@@ -102,27 +102,27 @@
 
 				b_rosbyrthuul = {
 					color = { 65 142 212 }
-					province = 5599
+					province = 5780
 				}
 
 				b_port_ros = {
 					color = { 75 134 206 }
-					province = 5620
+					province = 5801
 				}
 
 				b_rosbyrthuul_pass = {
 					color = { 65 142 212 }
-					province = 5608
+					province = 5789
 				}
 
 				b_rosbyrthuul_road = {
 					color = { 65 165 212 }
-					province = 5609
+					province = 5790
 				}
 
 				b_rosbyrthuul_outskirts = {
 					color = { 97 142 196 }
-					province = 5610
+					province = 5791
 				}
 			}
 
@@ -130,22 +130,22 @@
 				color = { 83 48 248 }
 
 				b_cronan = {
-					province = 5566
+					province = 5747
 					color = { 190 212 232 }
 				}
 
 				b_ondan = {
-					province = 5567
+					province = 5748
 					color = { 180 230 190 }
 				}
 
 				b_turles = {
-					province = 5568
+					province = 5749
 					color = { 69 112 243 }
 				}
 
 				b_monsea = {
-					province = 5569
+					province = 5750
 					color = { 112 95 232 }
 				}
 			}
@@ -155,17 +155,17 @@
 
 				b_vinthuurkov = {
 					color = { 99 132 195 }
-					province = 5600
+					province = 5781
 				}
 
 				b_vinthuurkov_road = {
 					color = { 112 132 175 }
-					province = 5605
+					province = 5786
 				}
 
 				b_mjovanfella_caverns = {
 					color = { 107 155 174 }
-					province = 5604
+					province = 5785
 				}
 			}
 
@@ -174,17 +174,17 @@
 
 				b_fashokaaz = {
 					color = { 102 122 187 }
-					province = 5601
+					province = 5782
 				}
 
 				b_fashokaaz_forest = {
 					color = { 98 142 176 }
-					province = 5606
+					province = 5787
 				}
 
 				b_fashokaaz_road = {
 					color = { 123 37 214 }
-					province = 5607
+					province = 5788
 				}
 			}
 
@@ -193,12 +193,12 @@
 
 				b_hare_forest = {
 					color = { 65 99 200 }
-					province = 5602
+					province = 5783
 				}
 
 				b_hermas_glade = {
 					color = { 75 120 190 }
-					province = 5603
+					province = 5784
 				}
 			}
 		}
@@ -212,12 +212,12 @@
 
 				b_dovlagr = {
 					color = { 135 135 210 }
-					province = 5590
+					province = 5771
 				}
 
 				b_dovlart = {
 					color = { 162 201 201 }
-					province = 5591
+					province = 5772
 				}
 			}
 		}
@@ -231,17 +231,17 @@
 
 				b_miitvaal = {
 					color = { 99 130 220 }
-					province = 5612
+					province = 5793
 				}
 
 				b_fierngrott = {
 					color = { 120 125 210 }
-					province = 5614
+					province = 5795
 				}
 
 				b_miitpass = {
 					color = { 130 125 178 }
-					province = 5615
+					province = 5796
 				}
 			}
 
@@ -250,17 +250,17 @@
 
 				b_raheen = {
 					color = { 165 175 165 }
-					province = 5611
+					province = 5792
 				}
 
 				b_fiern_pass = {
 					color = { 152 134 192 }
-					province = 5616
+					province = 5797
 				}
 
 				b_rosviith_cave = {
 					color = { 145 132 168 }
-					province = 5617
+					province = 5798
 				}
 			}
 
@@ -269,12 +269,12 @@
 
 				b_ice_flows = {
 					color = { 128 242 189 }
-					province = 5613
+					province = 5794
 				}
 
 				b_skalran = {
 					color = { 135 165 189 }
-					province = 5618
+					province = 5799
 				}
 			}
 		}
@@ -288,17 +288,17 @@
 
 				b_daavrenbyr = {
 					color = { 99 130 220 }
-					province = 5578
+					province = 5759
 				}
 
 				b_daavrenbyr_docks = {
 					color = { 99 99 190 }
-					province = 5579
+					province = 5760
 				}
 
 				b_daavruuth = {
 					color = { 26 156 220 }
-					province = 5580
+					province = 5761
 				}
 			}
 
@@ -307,7 +307,7 @@
 
 				b_the_storm_rocks = {
 					color = { 154 98 218 }
-					province = 5577
+					province = 5758
 				}
 			}
 
@@ -316,12 +316,12 @@
 
 				b_bjargo = {
 					color = { 94 87 174 }
-					province = 5582
+					province = 5763
 				}
 
 				b_bay_overlook = {
 					color = { 65 87 180 }
-					province = 5581
+					province = 5762
 				}
 			}
 
@@ -330,12 +330,12 @@
 
 				b_caher = {
 					color = { 65 78 138 }
-					province = 5583
+					province = 5764
 				}
 
 				b_gerac = {
 					color = { 92 56 173 }
-					province = 5586
+					province = 5767
 				}
 			}
 
@@ -344,12 +344,12 @@
 
 				b_esbert_forest = {
 					color = { 89 18 176 }
-					province = 5585
+					province = 5766
 				}
 
 				b_esbert_road = {
 					color = { 89 94 176 }
-					province = 5584
+					province = 5765
 				}
 			}
 		}
@@ -363,17 +363,17 @@
 				
 				b_werralcrea = {
 					color = { 76 23 181 }
-					province = 5594
+					province = 5775
 				}
 
 				b_werral_coast = {
 					color = { 26 15 184 }
-					province = 5595
+					province = 5776
 				}
 
 				b_werral_cape = {
 					color = { 59 68 127 }
-					province = 5596
+					province = 5777
 				}
 			}
 
@@ -382,12 +382,12 @@
 
 				b_konaholl = {
 					color = { 98 120 120 }
-					province = 5597
+					province = 5778
 				}
 
 				b_konah_plains = {
 					color = { 150 120 99 }
-					province = 5598
+					province = 5779
 				}
 			}
 
@@ -396,17 +396,17 @@
 				color = { 206 1 254 }
 				
 				b_gunderolt = {
-					province = 5572
+					province = 5753
 					color = { 45 68 170 }
 				}
 
 				b_last_port = {
-					province = 5571
+					province = 5752
 					color = { 70 61 181 }
 				}
 
 				b_gunders_fist = {
-					province = 5570
+					province = 5751
 					color = { 65 32 151 }
 				}
 			}
@@ -415,12 +415,12 @@
 				color = { 227 1 254 }
 
 				b_the_cold_hearths = {
-					province = 5573
+					province = 5754
 					color = { 95 45 162 }
 				}
 
 				b_the_cold_tests = {
-					province = 5574
+					province = 5755
 					color = { 64 49 132 }
 				}
 			}
@@ -430,7 +430,7 @@
 
 				b_isle_of_roots = {
 					color = { 25 59 130 }
-					province = 5576
+					province = 5757
 				}
 			}
 		}
@@ -453,7 +453,7 @@
 				b_olenveld = {
 					color = { 1 1 1 }
 
-					province = 5624
+					province = 5805
 				}
 			}
 		}
