@@ -1,4 +1,4 @@
-roscrean_can_upgrade_dovlagr = {
+﻿roscrean_can_upgrade_dovlagr = {
 	AND = {
 		building_requirement_tribal = no
 		county.holder = {
