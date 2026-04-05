@@ -116,6 +116,7 @@ island_region_the_sisters = {
 
 island_region_north_hvalcrea = {
 	counties = { c_north_hvalcrea }
+	provinces = { 5736 } # north_hvalcrea_mountains (impassable)
 }
 
 island_region_lesser_hvalcrea = {
@@ -124,10 +125,12 @@ island_region_lesser_hvalcrea = {
 
 island_region_greater_hvalcrea = {
 	counties = { c_greater_hvalcrea }
+	provinces = { 5740 } # greater_hvalcrea_mountain (impassable)
 }
 
 island_region_vignars_isle = {
 	counties = { c_vignars_isle }
+	provinces = { 5741 } # vignars_isle_mountain (impassable)
 }
 
 island_region_gunders_fist = {
@@ -164,13 +167,14 @@ island_region_roscrea = {
 		c_esbert_forest
 	}
 	provinces = {
-		5756 # frulth_lake
-		5768 # southern_miitvaal_mountains
-		5769 # northern_miitvaal_mountains
-		5770 # rosbyr_mountains
-		5773 # vinthuurkov_mountains
-		5774 # werral_mountains
-		5800 # windrise_peak
+		5746 # the_lone_cinder (impassable)
+		5756 # frulth_lake (impassable)
+		5768 # southern_miitvaal_mountains (impassable)
+		5769 # northern_miitvaal_mountains (impassable)
+		5770 # rosbyr_mountains (impassable)
+		5773 # vinthuurkov_mountains (impassable)
+		5774 # werral_mountains (impassable)
+		5800 # windrise_peak (impassable)
 	}
 }
 
