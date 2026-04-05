@@ -1,4 +1,4 @@
-﻿#max_provinces = 1466
+#max_provinces = 1466
 definitions = "definition.csv"
 provinces = "provinces.png"
 #positions = "positions.txt"
@@ -71,10 +71,6 @@ sea_zones = RANGE { 5214 5225 }
 #Valenwood Coast
 #idk, included somewhere -Theyn
 
-# Sea of Ghosts
-sea_zones = RANGE { 5537 5551 }
-sea_zones = RANGE { 5621 5623 }
-
 #Black Marsh Coast
 sea_zones = RANGE { 5226 5232 }
 sea_zones = RANGE { 5253 5274 }
@@ -82,9 +78,12 @@ sea_zones = LIST { 5287 }
 
 #Morrowind Coast
 sea_zones = RANGE { 5277 5284 }
-sea_zones = LIST { 5285 5286 } #separate, as those might be moved to navigable rivers
 sea_zones = RANGE { 5288 5296 }
 sea_zones = RANGE { 5298 5342 }
+
+# Sea of Ghosts (Roscrea)
+sea_zones = RANGE { 5802 5804 }
+sea_zones = RANGE { 5806 5809 }
 
 ###############
 # MAJOR RIVERS
@@ -167,6 +166,9 @@ river_provinces = LIST { 5241 5242 5243 5244 5245 }
 #Thir River
 river_provinces = LIST { 5362 5363 5364 5365 }
 
+#Almara River
+river_provinces = LIST { 5285 5286 }
+
 #Yenisi River (taken from TR)
 river_provinces = LIST { 5366 5367 5368 }
 
@@ -247,7 +249,7 @@ river_provinces = LIST { 5463 5464 5465 5466 5470 }
 ########
 # LAKES
 ########
-lakes = LIST { 49 125 888 919 990 1054 1764 2640 3915 3916 3917 3918 3950 3951 3952 3953 }
+lakes = LIST { 49 125 888 919 990 1054 1764 2640 3915 3916 3917 3918 3950 3951 3952 3953 5573 }
 
 #Mara's Eye Pond
 lakes = LIST { 4231 }
@@ -259,7 +261,7 @@ lakes = LIST { 4887 }
 lakes = LIST { 2595 2596 2597 2599 2601 5246 5247 5250 5251 5252 }
 
 #Morrowind Lakes
-lakes = LIST { 5360 5361 5369 5373 5375 5376 5377 5378 5379 5385 5386 5387 5388 5389 }
+lakes = LIST { 5360 5361 5369 5373 5375 5376 5377 5379 5385 5386 5387 5388 5389 }
 
 #Black Marsh Lakes
 lakes = LIST { 5414 5415 5416 5417 }
@@ -273,6 +275,9 @@ lakes = LIST { 5441 5442 5443 }
 #Summerset Lakes
 lakes = LIST { 5459 5460 5461 5462 5467 5468 5469 5471 5472 }
 
+# Roscrea Lakes
+lakes = LIST { 5756 }
+
 #####################
 # IMPASSABLE TERRAIN
 #####################
@@ -285,7 +290,8 @@ impassable_mountains = RANGE { 889 891 }
 impassable_mountains = RANGE { 893 918 }
 impassable_mountains = RANGE { 920 937 }
 impassable_mountains = RANGE { 939 958 }
-impassable_mountains = LIST { 4682 5496 5497 5498 5499 }
+impassable_mountains = RANGE { 5574 5584 }
+impassable_mountains = LIST { 4682 5496 5497 5498 5499 5651 5700 5701 5730 5731 5732 }
 # Skyrim Wastelands
 impassable_mountains = RANGE { 1511 1522 }
 impassable_mountains = RANGE { 1524 1532 }
@@ -308,8 +314,8 @@ impassable_mountains = RANGE { 3872 3894 }
 impassable_mountains = RANGE { 4644 4656 }
 impassable_mountains = RANGE { 4658 4672 }
 impassable_mountains = RANGE { 4675 4681 }
-impassable_mountains = RANGE { 4889 4892 }
-impassable_mountains = LIST { 5199 5527 }
+impassable_mountains = LIST { 4889 4891 4892 }
+impassable_mountains = LIST { 5527 5537 5378 }
 # Black Marsh Wasteland
 impassable_mountains = LIST { 4937 938 1523 1533 1555 1556 }
 impassable_mountains = RANGE { 5190 5198 }
@@ -318,12 +324,12 @@ impassable_mountains = RANGE { 5190 5198 }
 # WASTELAND
 ############
 # These are actually supposed to be Wasteland:
-# Cannot be colored. Blocks unit movement, used for things like Sahara desert. 
-impassable_mountains = LIST { 148 149 }
+# Cannot be colored. Blocks unit movement, used for things like Sahara desert.
+# impassable_mountains = LIST { }
 
 # IMPASSABLE SEA ZONES
 # These sea provinces cannot be crossed/sailed
-impassable_seas = LIST { 48 356 2574 5275 5276 5297 5343 }
+impassable_seas = LIST { 48 356 2574 5275 5276 5297 5343 148 149 }
 
 # UNUSED PROVINCES
 # These provinces cause issues because they are passable land, but not part of any title.
@@ -334,5 +340,4 @@ impassable_seas = LIST { 48 356 2574 5275 5276 5297 5343 }
 impassable_mountains = LIST { 1096 }
 
 # Roscrea
-impassable_mountains = LIST { 5555 5559 5560 5565 5587 5588 5589 5592 5593 5619 }
-lakes = LIST { 5575 }
+impassable_mountains = LIST { 5736 5740 5741 5746 5768 5769 5770 5773 5774 5800 }

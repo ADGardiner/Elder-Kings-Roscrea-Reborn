@@ -19,11 +19,11 @@
 5751=hills
 5752=plains
 5753=farmlands
-#5754=wasteland
-#5755=wasteland
+5754=taiga
+5755=taiga
 # 5756=impassable
 5757=forest
-#5758=wasteland
+5758=taiga
 5759=plains
 5760=plains
 5761=farmlands
@@ -71,3 +71,7 @@
 #5803=sea
 #5804=sea
 5805=taiga
+#5806=sea
+#5807=sea
+#5808=sea
+#5809=sea
